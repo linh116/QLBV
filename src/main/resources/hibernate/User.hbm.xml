@@ -3,19 +3,12 @@
 "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
 
 <hibernate-mapping>
-    <class name="com.mkyong.user.model.User" table="user" catalog="my_doctor">
-        <id name="userId" type="java.lang.Long">
-            <column name="USER_ID" />
+    <class name="com.mkyong.model.User" table="user" catalog="my_doctor">
+        <id name="userId" column="USER_ID" type="java.lang.Long">
             <generator class="identity" />
         </id>
-        <property name="displayName" type="string">
-            <column name="DISPLAY_NAME" length="10" not-null="true" unique="true" />
-        </property>
-        <property name="username" type="string">
-            <column name="USERNAME" length="10" not-null="true" unique="true" />
-        </property>
-        <property name="password" type="string">
-            <column name="PASSWORD" length="20" not-null="true" unique="true" />
-        </property>
+        <property name="displayName" column="DISPLAY_NAME" type="text"/>
+        <property name="username" column="USERNAME" type="text"/>
+        <property name="password" column="PASSWORD" type="text"/>
     </class>
 </hibernate-mapping>

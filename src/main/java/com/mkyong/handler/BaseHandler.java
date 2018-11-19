@@ -1,32 +1,18 @@
 package com.mkyong.handler;
 
+import com.mkyong.request.login.LoginRequest;
 import com.sun.net.httpserver.HttpExchange;
 import com.sun.net.httpserver.HttpHandler;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
-import java.io.OutputStream;
 import java.util.HashMap;
 import java.util.Map;
 
 public class BaseHandler implements HttpHandler {
     public void handle(HttpExchange httpExchange) throws IOException {
-        String response = "This is the response";
-        httpExchange.sendResponseHeaders(200, response.length());
-        OutputStream os = httpExchange.getResponseBody();
-//        Map<String, String> mapParam = queryToMap(httpExchange.getRequestURI().getQuery());
-//        System.out.println(mapParam);
-
-        Map<String, Object> params =
-                (Map<String, Object>)httpExchange.getAttribute("parameters");
-        System.out.println("param:"+params);
-
-        os.write(response.getBytes());
-        os.close();
-
-
-
+//        new LoginRequest(httpExchange, "resources/template/helloworld.html");
     }
 
     public Map<String, String> queryToMap(String query) {

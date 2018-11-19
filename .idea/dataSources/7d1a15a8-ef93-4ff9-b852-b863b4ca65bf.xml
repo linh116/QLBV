@@ -1022,22 +1022,33 @@
     <column id="255" parent="245" name="DISPLAY_NAME">
       <Position>2</Position>
       <DataType>varchar(50)|0</DataType>
+      <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="256" parent="245" name="USERNAME">
       <Position>3</Position>
-      <DataType>varchar(20)|0</DataType>
+      <DataType>varchar(50)|0</DataType>
+      <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="257" parent="245" name="PASSWORD">
       <Position>4</Position>
       <DataType>varchar(50)|0</DataType>
+      <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="258" parent="245" name="PRIMARY">
+    <index id="258" parent="245" name="USERNAME">
+      <ColNames>USERNAME</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="259" parent="245" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>USER_ID</ColNames>
       <Primary>1</Primary>
+    </key>
+    <key id="260" parent="245" name="USERNAME">
+      <ColNames>USERNAME</ColNames>
+      <UnderlyingIndexName>USERNAME</UnderlyingIndexName>
     </key>
   </database-model>
 </dataSource>

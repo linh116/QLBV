@@ -3,13 +3,13 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:schemaLocation="http://www.springframework.org/schema/beans
 http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
 
-	<!-- Stock business object -->
-   <bean id="stockBo" class="com.mkyong.user.bo.impl.UserBoImpl" >
-   		<property name="stockDao" ref="stockDao" />
+	<!-- User business object -->
+   <bean id="userBo" class="com.mkyong.bo.UserBo" >
+   		<property name="userDao" ref="userDao" />
    </bean>
  
-   <!-- Stock Data Access Object -->
-   <bean id="stockDao" class="com.mkyong.user.dao.impl.UserDaoImpl" >
+   <!-- User Data Access Object -->
+   <bean id="userDao" class="com.mkyong.dao.UserDao" >
    		<property name="sessionFactory" ref="sessionFactory"></property>
    </bean>
    

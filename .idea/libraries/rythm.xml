@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="rythm">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../rythm-engine-1.1.1-SNAPSHOT/lib/commons-lang3-3.3.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../rythm-engine-1.1.1-SNAPSHOT/lib/ecj-4.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../rythm-engine-1.1.1-SNAPSHOT/lib/fastjson-1.1.39.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../rythm-engine-1.1.1-SNAPSHOT/lib/mvel2-2.1.5.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../rythm-engine-1.1.1-SNAPSHOT/lib/pat-1.5.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../rythm-engine-1.1.1-SNAPSHOT/lib/rythm-engine-1.1.1-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
