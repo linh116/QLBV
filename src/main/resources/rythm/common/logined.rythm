@@ -1,0 +1,27 @@
+@args(){
+  String pageTitle,
+}
+@extends(main)
+
+@section("maincss"){
+  @render("css")
+}
+
+@section("mainpage"){
+  @include("top")
+  <div class="container">
+    <div class="row profile">
+      <div class="col-md-3">
+        @colleft()
+      </div>
+      <div class="col-md-9">
+        <div class="profile-content">
+          @render("page")
+        </div>
+      </div>
+    </div>
+  </div>
+  }
+  @section("mainjs"){
+  @render("js")
+}

@@ -4,12 +4,12 @@ xsi:schemaLocation="http://www.springframework.org/schema/beans
 http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
 
 	<!-- User business object -->
-   <bean id="userBo" class="com.mkyong.bo.UserBo" >
+   <bean id="userBo" class="com.qlbv.bo.UserBo" >
    		<property name="userDao" ref="userDao" />
    </bean>
  
    <!-- User Data Access Object -->
-   <bean id="userDao" class="com.mkyong.dao.UserDao" >
+   <bean id="userDao" class="com.qlbv.dao.UserDao" >
    		<property name="sessionFactory" ref="sessionFactory"></property>
    </bean>
    

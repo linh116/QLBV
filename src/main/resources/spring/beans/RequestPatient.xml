@@ -1,0 +1,17 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+
+	<!-- RequestPatient business object -->
+   <bean id="requestPatientBo" class="com.qlbv.bo.RequestPatientBo" >
+   		<property name="requestPatientDao" ref="requestPatientDao" />
+   </bean>
+ 
+   <!-- RequestPatient Data Access Object -->
+   <bean id="requestPatientDao" class="com.qlbv.dao.RequestPatientDao" >
+   		<property name="sessionFactory" ref="sessionFactory"></property>
+   </bean>
+   
+   		
+</beans>

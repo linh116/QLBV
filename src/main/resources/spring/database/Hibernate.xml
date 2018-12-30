@@ -20,6 +20,9 @@ http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
 			<list>
 				<value>/hibernate/Stock.hbm.xml</value>
 				<value>/hibernate/User.hbm.xml</value>
+				<value>/hibernate/Patient.hbm.xml</value>
+				<value>/hibernate/RequestPatient.hbm.xml</value>
+				<value>/hibernate/MedicalRecord.hbm.xml</value>
 			</list>
 		</property>
 		

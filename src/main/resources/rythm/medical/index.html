@@ -1,0 +1,101 @@
+@import medical.*;
+@args(){
+
+}
+@extends(common.logined)
+@section("page"){
+@include(navitabMedical)
+<div class="content">
+  <div class="row">
+    <div class="col-xs-6">
+      <div class="panel panel-primary">
+        <div class="panel-heading"><h3 class="panel-title">Thông tin bệnh nhân</h3>
+        </div>
+        <div class="panel-body">
+          <table class="table table-info-patient">
+            <tbody>
+            <input type="hidden" id="id-request" value="">
+            <tr>
+              <td class="text-right"><span class="label label-info">Mã BN</span></td>
+              <td><span id="id-patient"></span> </td>
+            </tr>
+            <tr>
+              <td class="text-right"><span class="label label-info">Tên BN</span></td>
+              <td><span class=" patient-name" id="name-patient"></span></td>
+            </tr>
+            <tr>
+              <td class="text-right"><span class="label label-info">Giới tính</span></td>
+              <td><span id="patient-gender"></span></td>
+            </tr>
+            <tr>
+              <td class="text-right"><span class="label label-info">Địa chỉ</span></td>
+              <td><span id="address-patient"></span></td>
+            </tr>
+            <tr>
+              <td class="text-right"><span class="label label-info">SĐT</span></td>
+              <td><span id="phone-patient"></span></td>
+            </tr>
+            <tr>
+              <td class="text-right"><span class="label label-info">Ngày sinh</span></td>
+              <td><span id="bd-patient"></span></td>
+            </tr>
+            </tbody>
+          </table>
+          <div class="content-center">
+            <button type="button" id="btn-khambenh" class="btn btn-success btn-sm">Tiến hành khám</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-6">
+      <div class="panel panel-primary" id="result_panel">
+        <div class="panel-heading"><h3 class="panel-title">Bệnh nhân chờ khám</h3>
+        </div>
+        <div class="panel-body">
+          <ul style="height: 251px;" id="list-patient-container" class="list-group">
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-12">
+      <div class="panel panel-primary" id="info-panel">
+        <div class="panel-heading"><h3 class="panel-title">Thông tin khám bệnh</h3>
+        </div>
+        <div class="panel-body">
+          <table class="table table-info-patient">
+            <tbody>
+            <tr>
+              <td class="text-right"><span class="label label-info">Lý do khám:</span></td>
+              <td><input type="text" id="reason-sick"></td>
+            </tr>
+            <tr>
+              <td class="text-right"><span class="label label-info">Triệu chứng</span></td>
+              <td><input type="text" id="symptom-sick"></td>
+            </tr>
+            <tr>
+              <td class="text-right"><span class="label label-info">Chẩn đoán</span></td>
+              <td><input type="text" id="guess-sick"></td>
+            </tr>
+            <tr>
+              <td class="text-right"><span class="label label-info">Ghi chú</span></td>
+              <td><input type="text" id="note-sick"></td>
+            </tr>
+            </tbody>
+          </table>
+          <div class="content-center">
+            <button disabled="disabled" type="button" id="btn-save-diagnose" class="btn btn-success btn-sm">Lưu bệnh án</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+}
+@section("js"){
+<script type="text/javascript" src="/resources/js/common.js"></script>
+<script type="text/javascript" src="/resources/js/Medical/index.js"></script>
+}

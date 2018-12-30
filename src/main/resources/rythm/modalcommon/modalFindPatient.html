@@ -1,0 +1,58 @@
+<!-- Modal -->
+<div id="modal-find-patient" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="exampleModalLiveLabel" style="display: none;" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLiveLabel">Tìm kiếm bệnh nhân</h5>
+      </div>
+      <div class="modal-body">
+        <!--START BODY-->
+        <div class="nav-search">
+          <div class="row">
+            <form class="form-inline form-filter" onsubmit="return false;">
+              <div class="col-xs-6">
+                <div class="form-group">
+                  <div class="input-group">
+                    <span class="input-group-addon"><span class="glyphicon glyphicon-search"></span></span>
+                    <input value="" type="text" class="form-control" placeholder="Tìm theo tên BN" id="searchName">
+                  </div>
+                </div>
+              </div>
+              <div class="col-xs-6">
+                <div class="form-group">
+                  <div class="input-group">
+                    <span class="input-group-addon"><span class="glyphicon glyphicon-search"></span></span>
+                    <input value="" type="text" class="form-control daterange-picker-common" placeholder="Tìm theo ngày sinh"
+                           id="searchNgaySinh">
+                    <a id="clear-btn" class="btn-reset glyphicon glyphicon-remove" type="reset" value="Reset" style="cursor: pointer; display: inline;"></a>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+  
+        <div class="row">
+          <div class="content">
+            <table class="table table-hover table-bordered" id="table-find-patient">
+              <thead>
+              <th>Id</th>
+              <th>Tên</th>
+              <th>Địa chỉ</th>
+              <th>SĐT</th>
+              <th>Ngày sinh</th>
+              </thead>
+              <tbody id="table-find-patient-body">
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <!--END BODY-->
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <!--<button type="button" class="btn btn-primary">Save changes</button>-->
+      </div>
+    </div>
+  </div>
+</div>

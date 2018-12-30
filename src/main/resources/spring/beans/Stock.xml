@@ -4,12 +4,12 @@ xsi:schemaLocation="http://www.springframework.org/schema/beans
 http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
 
 	<!-- Stock business object -->
-   <bean id="stockBo" class="com.mkyong.bo.StockBo" >
+   <bean id="stockBo" class="com.qlbv.bo.StockBo" >
    		<property name="stockDao" ref="stockDao" />
    </bean>
  
    <!-- Stock Data Access Object -->
-   <bean id="stockDao" class="com.mkyong.dao.StockDao" >
+   <bean id="stockDao" class="com.qlbv.dao.StockDao" >
    		<property name="sessionFactory" ref="sessionFactory"></property>
    </bean>
    

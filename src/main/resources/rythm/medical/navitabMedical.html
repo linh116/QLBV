@@ -1,0 +1,13 @@
+@args(){
+  boolean isIndex = false,
+  boolean isRegist = false
+}
+<div class="row">
+  <div class="col-xs-9">
+    <ul class="nav-main-content">
+      <li @if(isIndex){class="active"} ><a href="/medical/index">Tổng quan</a></li>
+      <li @if(isRegist){class="active"}><a href="/medical/regist">Đăng ký bệnh nhân</a></li>
+    </ul>
+  </div>
+</div>
+<div class="line"></div>

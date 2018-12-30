@@ -1,0 +1,74 @@
+@import medical.*;
+@import modalcommon.*;
+@args(){
+
+}
+@extends(common.logined)
+@section("page"){
+@include(navitabMedical)
+@include(modalFindPatient)
+<div class="content">
+  <div class="row">
+    <div class="col-xs-6">
+      <div class="panel panel-primary">
+        <div class="panel-heading"><h3 class="panel-title">Thông tin bệnh nhân</h3>
+        </div>
+        <div class="panel-body">
+          <table class="table table-info-patient">
+            <tbody>
+            <tr>
+              <td class="text-right"><span class="label label-info">Mã BN</span></td>
+              <td>
+                <input id="id-patient" type="text" value="" disabled="disabled">
+                <button id="btn-get-old-patient" type="button" class="btn btn-secondary btn-sm">BN cũ</button>
+              </td>
+            </tr>
+            <tr>
+              <td class="text-right"><span class="label label-info">Tên BN</span></td>
+              <td><input required class="max-width patient-name" type="text" value="" id="name-patient"></td>
+            </tr>
+            <tr>
+              <td class="text-right"><span class="label label-info">Giới tính</span></td>
+              <td><label class="label-gender"><input type="radio" name="sex-patient" checked>Nam</label><label class="label-gender"><input type="radio" name="sex-patient">Nữ</label></td>
+            </tr>
+            <tr>
+              <td class="text-right"><span class="label label-info">Địa chỉ</span></td>
+              <td><input class="max-width" type="text" value="" id="address-patient"></td>
+            </tr>
+            <tr>
+              <td class="text-right"><span class="label label-info">SĐT</span></td>
+              <td><input class="max-width" type="text" value="" id="phone-patient"></td>
+            </tr>
+            <tr>
+              <td class="text-right"><span class="label label-info">Ngày sinh</span></td>
+              <td><input readonly class="daterange-picker-common max-width" type="text" value="" id="bd-patient"></td>
+            </tr>
+            </tbody>
+          </table>
+          <div class="row">
+            <div class="profile-userbuttons">
+              <button type="button" id="btn-regist" class="btn btn-success btn-sm">Đăng ký</button>
+              <button type="button" id="btn-reset" class="btn btn-danger btn-sm">Nhập lại</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-6">
+      <div class="panel panel-primary" id="result_panel">
+        <div class="panel-heading"><h3 class="panel-title">Bệnh nhân chờ khám</h3>
+        </div>
+        <div class="panel-body">
+          <ul id="list-patient-container" style="height: 305px;" class="list-group">
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+}
+@section("js"){
+<script type="text/javascript" src="/resources/js/Medical/regist.js"></script>
+}

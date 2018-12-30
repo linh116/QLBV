@@ -3,7 +3,7 @@
 "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
 
 <hibernate-mapping>
-    <class name="com.mkyong.model.User" table="user" catalog="my_doctor">
+    <class name="com.qlbv.model.User" table="user" catalog="my_doctor">
         <id name="userId" column="USER_ID" type="java.lang.Long">
             <generator class="identity" />
         </id>

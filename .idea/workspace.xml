@@ -2,56 +2,58 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="610e4897-735b-409f-b934-00a07142aec4" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/rythm.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/css/my-style.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/js/Login/login.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/template/login.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/mkyong/common/Helper.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/mkyong/handler/LoginHandler.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/mkyong/handler/StaticHandler.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/mkyong/request/BaseRequest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/mkyong/request/login/LoginRequest.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7d1a15a8-ef93-4ff9-b852-b863b4ca65bf.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/7d1a15a8-ef93-4ff9-b852-b863b4ca65bf.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_rythmengine_rythm_engine_1_1_1_SNAPSHOT.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/SpringExample.iml" afterPath="$PROJECT_DIR$/SpringExample.iml" />
       <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mkyong/common/App.java" afterPath="$PROJECT_DIR$/src/main/java/com/mkyong/common/App.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mkyong/handler/BaseHandler.java" afterPath="$PROJECT_DIR$/src/main/java/com/mkyong/handler/BaseHandler.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mkyong/stock/bo/StockBo.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mkyong/stock/bo/impl/StockBoImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/mkyong/bo/StockBo.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mkyong/stock/dao/StockDao.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mkyong/stock/dao/impl/StockDaoImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/mkyong/dao/StockDao.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mkyong/stock/model/Stock.java" afterPath="$PROJECT_DIR$/src/main/java/com/mkyong/model/Stock.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mkyong/user/bo/UserBo.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mkyong/user/bo/impl/UserBoImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/mkyong/bo/UserBo.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mkyong/user/dao/UserDao.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mkyong/user/dao/impl/UserDaoImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/mkyong/dao/UserDao.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mkyong/user/model/User.java" afterPath="$PROJECT_DIR$/src/main/java/com/mkyong/model/User.java" />
+      <change beforePath="$PROJECT_DIR$/resources/css/my-style.css" afterPath="$PROJECT_DIR$/resources/css/my-style.css" />
+      <change beforePath="$PROJECT_DIR$/resources/js/Login/login.js" afterPath="$PROJECT_DIR$/resources/js/Login/login.js" />
+      <change beforePath="$PROJECT_DIR$/resources/template/helloworld.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/template/login.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mkyong/bo/StockBo.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mkyong/bo/UserBo.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mkyong/common/App.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mkyong/common/Helper.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mkyong/dao/StockDao.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mkyong/dao/UserDao.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mkyong/handler/BaseHandler.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mkyong/handler/LoginHandler.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mkyong/handler/StaticHandler.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mkyong/handler/filter/ParameterFilter.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mkyong/model/Stock.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mkyong/model/User.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mkyong/request/BaseRequest.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mkyong/request/login/LoginRequest.java" afterPath="" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate/Stock.hbm.xml" afterPath="$PROJECT_DIR$/src/main/resources/hibernate/Stock.hbm.xml" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate/User.hbm.xml" afterPath="$PROJECT_DIR$/src/main/resources/hibernate/User.hbm.xml" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/spring/beans/Stock.xml" afterPath="$PROJECT_DIR$/src/main/resources/spring/beans/Stock.xml" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/spring/beans/User.xml" afterPath="$PROJECT_DIR$/src/main/resources/spring/beans/User.xml" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/spring/config/BeanLocations.xml" afterPath="$PROJECT_DIR$/src/main/resources/spring/config/BeanLocations.xml" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mkyong/common/App.class" afterPath="$PROJECT_DIR$/target/classes/com/mkyong/common/App.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mkyong/handler/BaseHandler.class" afterPath="$PROJECT_DIR$/target/classes/com/mkyong/handler/BaseHandler.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mkyong/stock/bo/StockBo.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mkyong/stock/bo/impl/StockBoImpl.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mkyong/stock/dao/StockDao.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mkyong/stock/dao/impl/StockDaoImpl.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mkyong/stock/model/Stock.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mkyong/user/bo/UserBo.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mkyong/user/bo/impl/UserBoImpl.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mkyong/user/dao/UserDao.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mkyong/user/dao/impl/UserDaoImpl.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mkyong/user/model/User.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring/database/Hibernate.xml" afterPath="$PROJECT_DIR$/src/main/resources/spring/database/Hibernate.xml" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/mkyong/common/AppTest.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mkyong/bo/StockBo.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mkyong/bo/UserBo.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mkyong/common/App.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mkyong/common/Helper.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mkyong/dao/StockDao.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mkyong/dao/UserDao.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mkyong/handler/BaseHandler.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mkyong/handler/LoginHandler.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mkyong/handler/StaticHandler$Asset.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mkyong/handler/StaticHandler.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mkyong/handler/filter/ParameterFilter.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mkyong/model/Stock.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mkyong/model/User.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mkyong/request/BaseRequest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mkyong/request/login/LoginRequest.class" afterPath="" />
       <change beforePath="$PROJECT_DIR$/target/classes/hibernate/Stock.hbm.xml" afterPath="$PROJECT_DIR$/target/classes/hibernate/Stock.hbm.xml" />
       <change beforePath="$PROJECT_DIR$/target/classes/hibernate/User.hbm.xml" afterPath="$PROJECT_DIR$/target/classes/hibernate/User.hbm.xml" />
       <change beforePath="$PROJECT_DIR$/target/classes/spring/beans/Stock.xml" afterPath="$PROJECT_DIR$/target/classes/spring/beans/Stock.xml" />
       <change beforePath="$PROJECT_DIR$/target/classes/spring/beans/User.xml" afterPath="$PROJECT_DIR$/target/classes/spring/beans/User.xml" />
       <change beforePath="$PROJECT_DIR$/target/classes/spring/config/BeanLocations.xml" afterPath="$PROJECT_DIR$/target/classes/spring/config/BeanLocations.xml" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spring/database/Hibernate.xml" afterPath="$PROJECT_DIR$/target/classes/spring/database/Hibernate.xml" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/mkyong/common/AppTest.class" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -60,6 +62,11 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/SpringExample$App.coverage" NAME="App Coverage Results" MODIFIED="1546185790939" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.qlbv.framework.*</FILTER>
+    </SUITE>
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -75,125 +82,26 @@
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="mySQL" type="feb32156:DbDataSourceImpl" />
       </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="mySQL" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="mySQL" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="my_doctor: schema" type="c314c289:MysqlImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="mySQL" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="my_doctor: schema" type="c314c289:MysqlImplModel$Schema" />
-        <item name="user: table" type="98d5ac3d:MysqlImplModel$Table" />
-      </path>
     </expand>
     <select />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="User.hbm.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate/User.hbm.xml">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/js/Medical/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="12" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+            <state relative-caret-position="340">
+              <caret line="77" column="0" lean-forward="false" selection-start-line="77" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mkyong/model/User.java">
+      <file leaf-file-name="SessionManager.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qlbv/framework/SessionManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="869">
-              <caret line="59" column="76" lean-forward="false" selection-start-line="59" selection-start-column="76" selection-end-line="59" selection-end-column="76" />
-              <folding>
-                <element signature="e#417#418#0" expanded="true" />
-                <element signature="e#440#441#0" expanded="true" />
-                <element signature="e#480#481#0" expanded="true" />
-                <element signature="e#510#511#0" expanded="true" />
-                <element signature="e#547#548#0" expanded="true" />
-                <element signature="e#575#576#0" expanded="true" />
-                <element signature="e#627#628#0" expanded="true" />
-                <element signature="e#667#668#0" expanded="true" />
-                <element signature="e#701#702#0" expanded="true" />
-                <element signature="e#726#727#0" expanded="true" />
-                <element signature="e#772#773#0" expanded="true" />
-                <element signature="e#806#807#0" expanded="true" />
-                <element signature="e#840#841#0" expanded="true" />
-                <element signature="e#865#866#0" expanded="true" />
-                <element signature="e#911#912#0" expanded="true" />
-                <element signature="e#945#946#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoginRequest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mkyong/request/login/LoginRequest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BaseRequest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mkyong/request/BaseRequest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="37" column="39" lean-forward="false" selection-start-line="37" selection-start-column="39" selection-end-line="37" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="App.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mkyong/common/App.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="36" column="35" lean-forward="true" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DataSource.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/spring/database/DataSource.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="57" lean-forward="false" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserBo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mkyong/bo/UserBo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="34" column="32" lean-forward="false" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#477#478#0" expanded="true" />
-                <element signature="e#523#524#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Helper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mkyong/common/Helper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="43" column="5" lean-forward="true" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+            <state relative-caret-position="323">
+              <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -201,26 +109,92 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mkyong/dao/UserDao.java">
+      <file leaf-file-name="regist.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/js/Medical/regist.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+            <state relative-caret-position="289">
+              <caret line="83" column="0" lean-forward="false" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WelcomeRequest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qlbv/request/login/WelcomeRequest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MedicalRecordBo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qlbv/bo/MedicalRecordBo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Constant.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qlbv/common/Constant.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="31" lean-forward="false" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RequestPatientBo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qlbv/bo/RequestPatientBo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="39" column="41" lean-forward="false" selection-start-line="39" selection-start-column="41" selection-end-line="39" selection-end-column="41" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#374#375#0" expanded="true" />
-                <element signature="e#414#415#0" expanded="true" />
+                <element signature="e#907#908#0" expanded="true" />
+                <element signature="e#954#955#0" expanded="true" />
+                <element signature="e#1108#1109#0" expanded="true" />
+                <element signature="e#1161#1162#0" expanded="true" />
+                <element signature="e#1218#1219#0" expanded="true" />
+                <element signature="e#1276#1277#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Hibernate.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/spring/database/Hibernate.xml">
+      <file leaf-file-name="RegistPatientRequest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qlbv/request/medical/RegistPatientRequest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="80" lean-forward="true" selection-start-line="12" selection-start-column="80" selection-end-line="12" selection-end-column="80" />
+            <state relative-caret-position="673">
+              <caret line="69" column="68" lean-forward="false" selection-start-line="69" selection-start-column="68" selection-end-line="69" selection-end-column="68" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="regist.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/rythm/medical/regist.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="571">
+              <caret line="48" column="45" lean-forward="false" selection-start-line="48" selection-start-column="45" selection-end-line="48" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RequestPatientDao.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qlbv/dao/RequestPatientDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="30" column="41" lean-forward="false" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
+              <folding>
+                <element signature="e#589#590#0" expanded="true" />
+                <element signature="e#641#642#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -230,28 +204,57 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>LocalSessionFactoryBean</find>
-      <find>swarm</find>
-      <find>org.springframework.orm.hibernate3.LocalSessionFactoryBean</find>
-      <find>transaction</find>
-      <find>org.springframework</find>
-      <find>fastjson</find>
-      <find>springframework</find>
-      <find>stock</find>
+      <find>Syste</find>
+      <find>baseDomain</find>
+      <find>Rythm</find>
+      <find>bootstrap</find>
+      <find>body</find>
+      <find>STOCK</find>
       <find>Stock</find>
-      <find>hibn</find>
+      <find>stock</find>
+      <find>.content</find>
+      <find>requestRequest</find>
+      <find>P</find>
+      <find>/code.jquery.com/jquery-1.11.1.min.js</find>
+      <find>listPatient</find>
+      <find>customFormat</find>
+      <find>renderPatient</find>
+      <find>var</find>
+      <find>System.out.println</find>
+      <find>static Logger _logger = new Logger();</find>
+      <find>System.out</find>
+      <find>putToView</find>
+      <find>find info inlist</find>
+      <find>_tableSearchPatient</find>
+      <find>clear-btn</find>
+      <find>resetDate</find>
+      <find>Hibernate</find>
+      <find>patient</find>
+      <find>Patient</find>
+      <find>RequestPatient</find>
+      <find>status</find>
+      <find>btn-save-diagnose</find>
     </findStrings>
     <replaceStrings>
       <replace>user</replace>
       <replace>User</replace>
+      <replace>PATIENT</replace>
+      <replace>Patient</replace>
+      <replace>patient</replace>
+      <replace>RequestPatient</replace>
+      <replace>request</replace>
+      <replace>requestPatient</replace>
+      <replace>let</replace>
+      <replace>medicalRecord</replace>
+      <replace>MedicalRecord</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -313,56 +316,68 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/resources/properties/database.properties" />
-        <option value="$PROJECT_DIR$/src/main/resources/hibernate/Stock.hbm.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mkyong/stock/model/Stock.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mkyong/stock/bo/impl/UserBoImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mkyong/stock/bo/UserBo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mkyong/stock/dao/UserDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mkyong/stock/dao/impl/UserDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mkyong/stock/model/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mkyong/user/model/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mkyong/handler/IndexHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mkyong/handler/filter/ParameterFilter.java" />
-        <option value="$PROJECT_DIR$/resources/template/helloworld.rythm" />
-        <option value="$PROJECT_DIR$/resources/template/helloworld.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mkyong/common/AppConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mkyong/controller/HelloController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mkyong/common/WebAppInitializer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mkyong/handler/StaticHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mkyong/handler/LoginHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mkyong/handler/BaseHandler.java" />
-        <option value="$PROJECT_DIR$/resources/css/my-style.css" />
+        <option value="$PROJECT_DIR$/src/main/resources/rythm/login.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qlbv/request/login/WelcomeRequest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qlbv/handler/LoginHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring/beans/Patient.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring/beans/RequestPatient.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qlbv/bo/StockBo.java" />
         <option value="$PROJECT_DIR$/resources/js/Login/login.js" />
-        <option value="$PROJECT_DIR$/resources/template/login.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mkyong/user/dao/impl/UserDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mkyong/user/dao/UserDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mkyong/user/bo/impl/UserBoImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/spring/config/BeanLocations.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/spring/beans/User.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mkyong/user/bo/UserBo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mkyong/bo/StockBoImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mkyong/dao/StockDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mkyong/model/Stock.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mkyong/bo/UserBoImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mkyong/dao/UserDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mkyong/bo/StockBo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mkyong/dao/StockDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mkyong/bo/UserBo.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/spring/database/Hibernate.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mkyong/common/App.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qlbv/handler/MedicalHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/rythm/medical/navitabMedical.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qlbv/bo/PatientBo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qlbv/common/App.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qlbv/handler/CommonHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qlbv/dao/PatientDao.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/rythm/common/main.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qlbv/common/Logger.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qlbv/bo/result/BooleanResult.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qlbv/request/common/FindPatientRequest.java" />
+        <option value="$PROJECT_DIR$/resources/js/common.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/rythm/modalcommon/modalFindPatient.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/rythm/common/colleft.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qlbv/model/User.java" />
         <option value="$PROJECT_DIR$/src/main/resources/hibernate/User.hbm.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mkyong/model/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mkyong/common/Helper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mkyong/dao/UserDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mkyong/request/login/LoginRequest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mkyong/request/BaseRequest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/hibernate/Patient.hbm.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qlbv/model/Patient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qlbv/common/Helper.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/rythm/medical/regist.html" />
+        <option value="$PROJECT_DIR$/resources/css/my-style.css" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring/database/Hibernate.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring/beans/MedicalRecord.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qlbv/bo/MedicalRecordBo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qlbv/dao/MedicalRecordDao.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/hibernate/MedicalRecord.hbm.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qlbv/model/MedicalRecord.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qlbv/bo/BoManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qlbv/framework/SessionManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qlbv/request/login/LoginRequest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring/config/BeanLocations.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/hibernate/RequestPatient.hbm.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qlbv/common/Constant.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qlbv/model/RequestPatient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qlbv/request/medical/RegistPatientRequest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qlbv/bo/RequestPatientBo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qlbv/model/view/RequestPatientView.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/rythm/medical/index.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qlbv/request/medical/MedicalRequest.java" />
+        <option value="$PROJECT_DIR$/resources/js/Medical/index.js" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qlbv/bo/UserBo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qlbv/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qlbv/request/BaseRequest.java" />
+        <option value="$PROJECT_DIR$/resources/js/Medical/regist.js" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qlbv/dao/RequestPatientDao.java" />
       </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
@@ -375,10 +390,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1612" />
-    <option name="height" value="876" />
+    <option name="x" value="-7" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -417,6 +431,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -426,191 +441,21 @@
             </path>
             <path>
               <item name="SpringExample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringExample" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringExample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringExample" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringExample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringExample" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringExample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringExample" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="Login" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringExample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringExample" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="template" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringExample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringExample" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringExample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringExample" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringExample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringExample" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringExample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringExample" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mkyong" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringExample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringExample" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mkyong" type="462c0819:PsiDirectoryNode" />
-              <item name="bo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringExample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringExample" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mkyong" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringExample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringExample" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mkyong" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringExample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringExample" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mkyong" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringExample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringExample" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mkyong" type="462c0819:PsiDirectoryNode" />
-              <item name="request" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringExample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringExample" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mkyong" type="462c0819:PsiDirectoryNode" />
-              <item name="request" type="462c0819:PsiDirectoryNode" />
-              <item name="login" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringExample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringExample" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringExample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringExample" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="hibernate" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringExample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringExample" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="properties" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringExample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringExample" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringExample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringExample" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="beans" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringExample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringExample" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringExample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringExample" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="database" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringExample" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+    <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.29310346" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -619,23 +464,26 @@
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Coding\SpringExample\src\main\java\com\mkyong\user\model" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.mkyong.stock.model" />
-      <recent name="com.mkyong.stock.dao.impl" />
-      <recent name="com.mkyong.stock.dao" />
-      <recent name="com.mkyong.stock.bo" />
-      <recent name="com.mkyong.stock.bo.impl" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Coding\SpringExample\resources" />
-      <recent name="D:\Coding\SpringExample\src\main\java\com\mkyong\user" />
       <recent name="D:\Coding\SpringExample\src\main\resources\spring\beans" />
       <recent name="D:\Coding\SpringExample\src\main\resources\hibernate" />
+      <recent name="D:\Coding\SpringExample\resources\js\Medical" />
+      <recent name="D:\Coding\SpringExample\src\main\resources\rythm\medical" />
+      <recent name="D:\Coding\SpringExample\resources\template\common" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.qlbv.model.view" />
+      <recent name="com.qlbv.model" />
+      <recent name="com.qlbv.dao" />
+      <recent name="com.qlbv.bo" />
+      <recent name="com.qlbv.request.common" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Coding\SpringExample\src\main\resources" />
+      <recent name="D:\Coding\SpringExample\src\main\java\com\mkyong\user\model" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -661,11 +509,30 @@
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.mkyong.common.*" />
+          <option name="PATTERN" value="com.qlbv.framework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.mkyong.common.App" />
+      <option name="MAIN_CLASS_NAME" value="com.qlbv.common.App" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="SpringExample" />
+      <envs />
+    </configuration>
+    <configuration name="Constant" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.qlbv.common.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.qlbv.common.Constant" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -680,11 +547,30 @@
     <configuration name="Helper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.mkyong.common.*" />
+          <option name="PATTERN" value="com.qlbv.framework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.mkyong.common.Helper" />
+      <option name="MAIN_CLASS_NAME" value="com.qlbv.common.Helper" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="SpringExample" />
+      <envs />
+    </configuration>
+    <configuration name="Logger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.qlbv.common.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.qlbv.common.Logger" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -802,16 +688,20 @@
       <module name="" />
       <envs />
     </configuration>
-    <list size="3">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.App" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.All in SpringExample" />
       <item index="2" class="java.lang.String" itemvalue="Application.Helper" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Logger" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Constant" />
     </list>
     <recent_temporary>
-      <list size="3">
+      <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Application.App" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Helper" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.All in SpringExample" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Constant" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Logger" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Helper" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.All in SpringExample" />
       </list>
     </recent_temporary>
   </component>
@@ -835,7 +725,30 @@
       <workItem from="1542472165418" duration="1664000" />
       <workItem from="1542474380064" duration="1725000" />
       <workItem from="1542526816550" duration="15949000" />
-      <workItem from="1542599402598" duration="2525000" />
+      <workItem from="1542599402598" duration="2608000" />
+      <workItem from="1542633808642" duration="7606000" />
+      <workItem from="1542723184854" duration="7811000" />
+      <workItem from="1542806334778" duration="1219000" />
+      <workItem from="1542902684057" duration="2000" />
+      <workItem from="1542979407219" duration="8244000" />
+      <workItem from="1543078121592" duration="602000" />
+      <workItem from="1543114939456" duration="8347000" />
+      <workItem from="1543123405108" duration="279000" />
+      <workItem from="1543232816994" duration="8881000" />
+      <workItem from="1543330906297" duration="6309000" />
+      <workItem from="1543414101203" duration="7593000" />
+      <workItem from="1543591125846" duration="3777000" />
+      <workItem from="1543667238353" duration="5640000" />
+      <workItem from="1543762387938" duration="3651000" />
+      <workItem from="1543928820965" duration="1861000" />
+      <workItem from="1544241594381" duration="5116000" />
+      <workItem from="1544450555112" duration="2129000" />
+      <workItem from="1545198079341" duration="215000" />
+      <workItem from="1545199039718" duration="1409000" />
+      <workItem from="1545747968504" duration="4874000" />
+      <workItem from="1545752925943" duration="159000" />
+      <workItem from="1546175444027" duration="2122000" />
+      <workItem from="1546183297542" duration="4112000" />
     </task>
     <servers />
   </component>
@@ -845,11 +758,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37734000" />
+    <option name="totallyTimeSpent" value="129775000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Hibernate Tools" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -857,11 +769,11 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.62734866" sideWeight="0.49361023" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38331574" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37909186" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946146" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -869,11 +781,12 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32946146" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3315734" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6145833" sideWeight="0.5063898" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25976768" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1953125" sideWeight="0.36062992" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1953125" sideWeight="0.6393701" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18489583" sideWeight="0.3949447" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16614583" sideWeight="0.6050553" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -907,7 +820,7 @@
           <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="40" />
+      <option name="time" value="139" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
@@ -930,709 +843,520 @@
     </expressions>
     <expressions id="evaluateExpression">
       <expression>
-        <expression-string>displayName.</expression-string>
+        <expression-string>listPatientToday.get(0).getPatientId().equals(requestPatient.getPatientId())</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>displayName.toString()</expression-string>
+        <expression-string>listPatientToday.get(0).getPatientId() == requestPatient.getPatientId()</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>displayName.getBytes()</expression-string>
+        <expression-string>requestPatient.getPatientId()</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>displayName.length()</expression-string>
+        <expression-string>listPatientToday.get(0).getPatientId()</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>displayName</expression-string>
+        <expression-string>params.get(&quot;birthday&quot;)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>queryObject.list()</expression-string>
+        <expression-string>(Long) params.get(&quot;birthday&quot;)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>null == this.templateInstance</expression-string>
+        <expression-string>rootRe</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>inputStream.read(buffer)</expression-string>
+        <expression-string>Rythm.render(rootRe, dataView)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>inputStream.read(buffer))</expression-string>
+        <expression-string>&quot;rythm/&quot; + template</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>rootRe.isFile()</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="uml://Persistence/JavaeeElement:/68878151/sessionFactory/SpringExample/hibernate/Hibernate/PersistenceModel">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>Persistence</ID>
-          <OriginalElement>JavaeeElement:/68878151/sessionFactory/SpringExample/hibernate/Hibernate/PersistenceModel</OriginalElement>
-          <nodes>
-            <node x="" y="">Stock#file://D:/Coding/SpringExample/src/main/java/com/mkyong/stock/model/Stock.java</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="79.0" y="48.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Embeddables</Category>
-            <Category>Properties</Category>
-            <Category>Superclasses</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/rythm/common/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="39" lean-forward="false" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SpringExample.iml">
+    <entry file="file://$PROJECT_DIR$/resources/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mkyong/stock/bo/impl/UserBoImpl.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mkyong/stock/bo/UserBo.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mkyong/stock/dao/UserDao.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mkyong/stock/dao/impl/UserDaoImpl.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mkyong/stock/model/User.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/jre/lib/rt.jar!/com/sun/net/httpserver/HttpHandler.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qlbv/handler/MedicalHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/rythmengine/rythm-engine/1.0-b8/rythm-engine-1.0-b8.jar!/org/rythmengine/internal/compiler/TemplateClass.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qlbv/common/Logger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4590">
-          <caret line="335" column="35" lean-forward="false" selection-start-line="335" selection-start-column="35" selection-end-line="335" selection-end-column="54" />
-          <folding>
-            <marker date="1542470287169" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1542470287169" expanded="false" signature="157:1328" ph="..." />
-            <marker date="1542470287169" expanded="true" signature="2403:2520" ph="{...}" />
-            <marker date="1542470287169" expanded="false" signature="2477:2492" ph=" { " />
-            <marker date="1542470287169" expanded="false" signature="2504:2514" ph=" }" />
-            <marker date="1542470287169" expanded="false" signature="2839:2850" ph=" { " />
-            <marker date="1542470287169" expanded="false" signature="2867:2873" ph=" }" />
-            <marker date="1542470287169" expanded="true" signature="2903:3328" ph="{...}" />
-            <marker date="1542470287169" expanded="true" signature="3436:3633" ph="{...}" />
-            <marker date="1542470287169" expanded="false" signature="3663:3674" ph=" { " />
-            <marker date="1542470287169" expanded="false" signature="3692:3698" ph=" }" />
-            <marker date="1542470287169" expanded="false" signature="3732:3743" ph=" { " />
-            <marker date="1542470287169" expanded="false" signature="3801:3807" ph=" }" />
-            <marker date="1542470287169" expanded="false" signature="3834:3845" ph=" { " />
-            <marker date="1542470287169" expanded="false" signature="3862:3868" ph=" }" />
-            <marker date="1542470287169" expanded="false" signature="3894:3905" ph=" { " />
-            <marker date="1542470287169" expanded="false" signature="3922:3928" ph=" }" />
-            <marker date="1542470287169" expanded="true" signature="3988:4098" ph="{...}" />
-            <marker date="1542470287169" expanded="true" signature="4153:4914" ph="{...}" />
-            <marker date="1542470287169" expanded="false" signature="4971:4982" ph=" { " />
-            <marker date="1542470287169" expanded="false" signature="5022:5028" ph=" }" />
-            <marker date="1542470287169" expanded="true" signature="5078:5368" ph="{...}" />
-            <marker date="1542470287169" expanded="true" signature="5415:6041" ph="{...}" />
-            <marker date="1542470287169" expanded="true" signature="6096:6655" ph="{...}" />
-            <marker date="1542470287169" expanded="false" signature="6684:6695" ph=" { " />
-            <marker date="1542470287169" expanded="false" signature="6773:6779" ph=" }" />
-            <marker date="1542470287169" expanded="false" signature="6819:6830" ph=" { " />
-            <marker date="1542470287169" expanded="false" signature="6849:6855" ph=" }" />
-            <marker date="1542470287169" expanded="false" signature="6888:6899" ph=" { " />
-            <marker date="1542470287169" expanded="false" signature="6961:6967" ph=" }" />
-            <marker date="1542470287169" expanded="false" signature="7006:7017" ph=" { " />
-            <marker date="1542470287169" expanded="false" signature="7054:7060" ph=" }" />
-            <marker date="1542470287169" expanded="true" signature="7119:7550" ph="{...}" />
-            <marker date="1542470287169" expanded="false" signature="7589:7600" ph=" { " />
-            <marker date="1542470287169" expanded="false" signature="7663:7669" ph=" }" />
-            <marker date="1542470287169" expanded="true" signature="7717:8228" ph="{...}" />
-            <marker date="1542470287169" expanded="false" signature="8285:8296" ph=" { " />
-            <marker date="1542470287169" expanded="false" signature="8345:8351" ph=" }" />
-            <marker date="1542470287169" expanded="false" signature="8414:8425" ph=" { " />
-            <marker date="1542470287169" expanded="false" signature="8478:8484" ph=" }" />
-            <marker date="1542470287169" expanded="true" signature="8566:8644" ph="{...}" />
-            <marker date="1542470287169" expanded="false" signature="8718:8729" ph=" { " />
-            <marker date="1542470287169" expanded="false" signature="8759:8765" ph=" }" />
-            <marker date="1542470287169" expanded="true" signature="8858:8913" ph="{...}" />
-            <marker date="1542470287169" expanded="true" signature="9007:9311" ph="{...}" />
-            <marker date="1542470287169" expanded="true" signature="9423:9763" ph="{...}" />
-            <marker date="1542470287169" expanded="false" signature="9791:9802" ph=" { " />
-            <marker date="1542470287169" expanded="false" signature="9886:9892" ph=" }" />
-            <marker date="1542470287169" expanded="true" signature="9947:10365" ph="{...}" />
-            <marker date="1542470287169" expanded="true" signature="10409:11995" ph="{...}" />
-            <marker date="1542470287169" expanded="true" signature="12060:12373" ph="{...}" />
-            <marker date="1542470287169" expanded="false" signature="12408:12419" ph=" { " />
-            <marker date="1542470287169" expanded="false" signature="12473:12479" ph=" }" />
-            <marker date="1542470287169" expanded="true" signature="12531:12776" ph="{...}" />
-            <marker date="1542470287169" expanded="true" signature="12811:12963" ph="{...}" />
-            <marker date="1542470287169" expanded="true" signature="13004:13273" ph="{...}" />
-            <marker date="1542470287169" expanded="false" signature="13303:13314" ph=" { " />
-            <marker date="1542470287169" expanded="false" signature="13341:13347" ph=" }" />
-            <marker date="1542470287169" expanded="true" signature="13408:14168" ph="{...}" />
-            <marker date="1542470287169" expanded="true" signature="14204:15283" ph="{...}" />
-            <marker date="1542470287169" expanded="true" signature="15334:21823" ph="{...}" />
-            <marker date="1542470287169" expanded="false" signature="21857:21868" ph=" { " />
-            <marker date="1542470287169" expanded="false" signature="21915:21921" ph=" }" />
-            <marker date="1542470287169" expanded="true" signature="21947:22485" ph="{...}" />
-            <marker date="1542470287169" expanded="true" signature="22515:24702" ph="{...}" />
-            <marker date="1542470287169" expanded="true" signature="24755:24853" ph="{...}" />
-            <marker date="1542470287169" expanded="true" signature="24883:26618" ph="{...}" />
-            <marker date="1542470287169" expanded="false" signature="26647:26658" ph=" { " />
-            <marker date="1542470287169" expanded="false" signature="26680:26686" ph=" }" />
-            <marker date="1542470287169" expanded="false" signature="26716:26727" ph=" { " />
-            <marker date="1542470287169" expanded="false" signature="26772:26778" ph=" }" />
-            <marker date="1542470287169" expanded="true" signature="26811:26927" ph="{...}" />
-            <marker date="1542470287169" expanded="false" signature="26976:26987" ph=" { " />
-            <marker date="1542470287169" expanded="false" signature="27016:27022" ph=" }" />
-            <marker date="1542470287169" expanded="true" signature="27062:27157" ph="{...}" />
-            <marker date="1542470287169" expanded="false" signature="27187:27198" ph=" { " />
-            <marker date="1542470287169" expanded="false" signature="27255:27261" ph=" }" />
-            <marker date="1542470287169" expanded="true" signature="27299:27565" ph="{...}" />
-            <marker date="1542470287169" expanded="false" signature="27592:27603" ph=" { " />
-            <marker date="1542470287169" expanded="false" signature="27635:27641" ph=" }" />
-          </folding>
+        <state relative-caret-position="367">
+          <caret line="25" column="58" lean-forward="true" selection-start-line="25" selection-start-column="58" selection-end-line="25" selection-end-column="58" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/rythmengine/rythm-engine/1.0-b8/rythm-engine-1.0-b8.jar!/org/rythmengine/conf/RythmConfigurationKey.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qlbv/bo/result/BooleanResult.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="322" column="40" lean-forward="false" selection-start-line="322" selection-start-column="40" selection-end-line="322" selection-end-column="40" />
-          <folding />
+        <state relative-caret-position="350">
+          <caret line="23" column="24" lean-forward="false" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/template/helloworld.rythm" />
-    <entry file="file://$PROJECT_DIR$/resources/helloworld.html" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mkyong/controller/HelloController.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mkyong/common/WebAppInitializer.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mkyong/common/AppConfig.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mkyong/handler/filter/ParameterFilter.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qlbv/request/common/FindPatientRequest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-103">
-          <caret line="53" column="9" lean-forward="false" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
+        <state relative-caret-position="289">
+          <caret line="32" column="33" lean-forward="false" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mkyong/handler/LoginHandler.java">
+    <entry file="file://$PROJECT_DIR$/resources/js/common.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+        <state relative-caret-position="2363">
+          <caret line="139" column="18" lean-forward="false" selection-start-line="139" selection-start-column="18" selection-end-line="139" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mkyong/handler/BaseHandler.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/rythm/modalcommon/modalFindPatient.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+        <state relative-caret-position="918">
+          <caret line="54" column="8" lean-forward="false" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/template/helloworld.html">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/rythm/common/colleft.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="6" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+        <state relative-caret-position="238">
+          <caret line="35" column="31" lean-forward="false" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mkyong/handler/StaticHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="67" column="61" lean-forward="true" selection-start-line="67" selection-start-column="61" selection-end-line="67" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#277#292#0" expanded="false" />
-            <element signature="e#982#983#0" expanded="false" />
-            <element signature="e#1022#1023#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/css/my-style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/js/Login/login.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="16" lean-forward="false" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mkyong/user/dao/UserDao.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mkyong/user/bo/UserBo.java" />
-    <entry file="file://$PROJECT_DIR$/resources/template/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="32" lean-forward="true" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mkyong/dao/StockDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mkyong/bo/StockBo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="41" lean-forward="true" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring/2.5.6/spring-2.5.6.jar!/org/springframework/orm/hibernate3/support/HibernateDaoSupport.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="41" column="35" lean-forward="false" selection-start-line="41" selection-start-column="35" selection-end-line="41" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/stock.ddl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://src:table:/68878151/7d1a15a8-ef93-4ff9-b852-b863b4ca65bf/my_doctor.user">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mkyong/model/Stock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="40" column="21" lean-forward="false" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
-          <folding>
-            <element signature="e#741#742#0" expanded="false" />
-            <element signature="e#774#775#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/util/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="110" column="17" lean-forward="false" selection-start-line="110" selection-start-column="17" selection-end-line="110" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/properties/database.properties">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qlbv/handler/LoginHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate/3.2.3.ga/hibernate-3.2.3.ga.jar!/org/hibernate/Query.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qlbv/model/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="35" column="9" lean-forward="false" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
-          <folding>
-            <marker date="1542037004774" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1542037004774" expanded="false" signature="137:474" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate/3.2.3.ga/hibernate-3.2.3.ga.jar!/org/hibernate/Session.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1717">
-          <caret line="106" column="10" lean-forward="false" selection-start-line="106" selection-start-column="10" selection-end-line="106" selection-end-column="10" />
-          <folding>
-            <marker date="1542037004774" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1542037004774" expanded="false" signature="137:231" ph="..." />
-            <marker date="1542037004774" expanded="true" signature="3988:4006" ph="/**...*/" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring/2.5.6/spring-2.5.6.jar!/org/springframework/orm/hibernate3/HibernateTemplate.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7888">
-          <caret line="585" column="16" lean-forward="false" selection-start-line="585" selection-start-column="16" selection-end-line="585" selection-end-column="16" />
-          <folding>
-            <marker date="1542035574851" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1542035574851" expanded="false" signature="158:1181" ph="..." />
-            <marker date="1542035574851" expanded="true" signature="1634:1641" ph="{}" />
-            <marker date="1542035574851" expanded="true" signature="1703:1793" ph="{...}" />
-            <marker date="1542035574851" expanded="true" signature="1876:2008" ph="{...}" />
-            <marker date="1542035574851" expanded="false" signature="2061:2072" ph=" { " />
-            <marker date="1542035574851" expanded="false" signature="2103:2109" ph=" }" />
-            <marker date="1542035574851" expanded="false" signature="2145:2156" ph=" { " />
-            <marker date="1542035574851" expanded="false" signature="2180:2186" ph=" }" />
-            <marker date="1542035574851" expanded="false" signature="2255:2266" ph=" { " />
-            <marker date="1542035574851" expanded="false" signature="2313:2319" ph=" }" />
-            <marker date="1542035574851" expanded="false" signature="2363:2374" ph=" { " />
-            <marker date="1542035574851" expanded="false" signature="2406:2412" ph=" }" />
-            <marker date="1542035574851" expanded="false" signature="2481:2492" ph=" { " />
-            <marker date="1542035574851" expanded="false" signature="2539:2545" ph=" }" />
-            <marker date="1542035574851" expanded="false" signature="2589:2600" ph=" { " />
-            <marker date="1542035574851" expanded="false" signature="2632:2638" ph=" }" />
-            <marker date="1542035574851" expanded="true" signature="2710:2775" ph="{...}" />
-            <marker date="1542035574851" expanded="false" signature="2820:2831" ph=" { " />
-            <marker date="1542035574851" expanded="false" signature="2864:2870" ph=" }" />
-            <marker date="1542035574851" expanded="false" signature="2925:2936" ph=" { " />
-            <marker date="1542035574851" expanded="false" signature="2969:2975" ph=" }" />
-            <marker date="1542035574851" expanded="false" signature="3012:3023" ph=" { " />
-            <marker date="1542035574851" expanded="false" signature="3048:3054" ph=" }" />
-            <marker date="1542035574851" expanded="false" signature="3116:3127" ph=" { " />
-            <marker date="1542035574851" expanded="false" signature="3168:3174" ph=" }" />
-            <marker date="1542035574851" expanded="false" signature="3215:3226" ph=" { " />
-            <marker date="1542035574851" expanded="false" signature="3255:3261" ph=" }" />
-            <marker date="1542035574851" expanded="false" signature="3306:3317" ph=" { " />
-            <marker date="1542035574851" expanded="false" signature="3344:3350" ph=" }" />
-            <marker date="1542035574851" expanded="false" signature="3381:3392" ph=" { " />
-            <marker date="1542035574851" expanded="false" signature="3414:3420" ph=" }" />
-            <marker date="1542035574851" expanded="false" signature="3467:3478" ph=" { " />
-            <marker date="1542035574851" expanded="false" signature="3507:3513" ph=" }" />
-            <marker date="1542035574851" expanded="false" signature="3545:3556" ph=" { " />
-            <marker date="1542035574851" expanded="false" signature="3579:3585" ph=" }" />
-            <marker date="1542035574851" expanded="true" signature="3666:3726" ph="{...}" />
-            <marker date="1542035574851" expanded="true" signature="3809:4135" ph="{...}" />
-            <marker date="1542035574851" expanded="false" signature="4202:4213" ph=" { " />
-            <marker date="1542035574851" expanded="false" signature="4256:4262" ph=" }" />
-            <marker date="1542035574851" expanded="false" signature="4332:4343" ph=" { " />
-            <marker date="1542035574851" expanded="false" signature="4386:4392" ph=" }" />
-            <marker date="1542035574851" expanded="true" signature="4398:4416" ph="/**...*/" />
-            <marker date="1542035574851" expanded="true" signature="4526:4601" ph="{...}" />
-            <marker date="1542035574851" expanded="true" signature="4744:6670" ph="{...}" />
-            <marker date="1542035574851" expanded="true" signature="6707:7517" ph="{...}" />
-            <marker date="1542035574851" expanded="true" signature="7577:8235" ph="{...}" />
-            <marker date="1542035574851" expanded="true" signature="8322:8394" ph="{...}" />
-            <marker date="1542035574851" expanded="true" signature="8518:8820" ph="{...}" />
-            <marker date="1542035574851" expanded="false" signature="8565:8675" ph="doInHibernate(session) → {" />
-            <marker date="1542035574851" expanded="false" signature="8797:8812" ph="}" />
-            <marker date="1542035574851" expanded="true" signature="8907:8979" ph="{...}" />
-            <marker date="1542035574851" expanded="true" signature="9103:9403" ph="{...}" />
-            <marker date="1542035574851" expanded="false" signature="9150:9260" ph="doInHibernate(session) → {" />
-            <marker date="1542035574851" expanded="false" signature="9380:9395" ph="}" />
-            <marker date="1542035574851" expanded="true" signature="9491:9564" ph="{...}" />
-            <marker date="1542035574851" expanded="true" signature="9689:9993" ph="{...}" />
-            <marker date="1542035574851" expanded="false" signature="9736:9846" ph="doInHibernate(session) → {" />
-            <marker date="1542035574851" expanded="false" signature="9970:9985" ph="}" />
-            <marker date="1542035574851" expanded="true" signature="10081:10154" ph="{...}" />
-            <marker date="1542035574851" expanded="true" signature="10279:10581" ph="{...}" />
-            <marker date="1542035574851" expanded="false" signature="10326:10436" ph="doInHibernate(session) → {" />
-            <marker date="1542035574851" expanded="false" signature="10558:10573" ph="}" />
-            <marker date="1542035574851" expanded="true" signature="10659:11111" ph="{...}" />
-            <marker date="1542035574851" expanded="false" signature="10712:10822" ph="doInHibernate(session) → {" />
-            <marker date="1542035574851" expanded="false" signature="11088:11103" ph="}" />
-            <marker date="1542035574851" expanded="true" signature="11205:11458" ph="{...}" />
-            <marker date="1542035574851" expanded="false" signature="11245:11355" ph="doInHibernate(session) → {" />
-            <marker date="1542035574851" expanded="false" signature="11435:11450" ph="}" />
-            <marker date="1542035574851" expanded="true" signature="11526:11579" ph="{...}" />
-            <marker date="1542035574851" expanded="true" signature="11678:12073" ph="{...}" />
-            <marker date="1542035574851" expanded="false" signature="11718:11828" ph="doInHibernate(session) → {" />
-            <marker date="1542035574851" expanded="false" signature="12050:12065" ph="}" />
-            <marker date="1542035574851" expanded="true" signature="12151:12436" ph="{...}" />
-            <marker date="1542035574851" expanded="false" signature="12217:12301" ph="doInHibernate(session) → {" />
-            <marker date="1542035574851" expanded="false" signature="12390:12405" ph="}" />
-            <marker date="1542035574851" expanded="true" signature="12508:12758" ph="{...}" />
-            <marker date="1542035574851" expanded="false" signature="12548:12658" ph="doInHibernate(session) → {" />
-            <marker date="1542035574851" expanded="false" signature="12735:12750" ph="}" />
-            <marker date="1542035574851" expanded="true" signature="12828:13021" ph="{...}" />
-            <marker date="1542035574851" expanded="true" signature="13102:13381" ph="{...}" />
-            <marker date="1542035574851" expanded="true" signature="13477:13736" ph="{...}" />
-            <marker date="1542035574851" expanded="false" signature="13517:13627" ph="doInHibernate(session) → {" />
-            <marker date="1542035574851" expanded="false" signature="13713:13728" ph="}" />
-            <marker date="1542035574851" expanded="true" signature="13857:14128" ph="{...}" />
-            <marker date="1542035574851" expanded="false" signature="13897:14007" ph="doInHibernate(session) → {" />
-            <marker date="1542035574851" expanded="false" signature="14105:14120" ph="}" />
-            <marker date="1542035574851" expanded="true" signature="14207:14531" ph="{...}" />
-            <marker date="1542035574851" expanded="false" signature="14268:14378" ph="doInHibernate(session) → {" />
-            <marker date="1542035574851" expanded="false" signature="14508:14523" ph="}" />
-            <marker date="1542035574851" expanded="true" signature="14635:14971" ph="{...}" />
-            <marker date="1542035574851" expanded="false" signature="14696:14806" ph="doInHibernate(session) → {" />
-            <marker date="1542035574851" expanded="false" signature="14948:14963" ph="}" />
-            <marker date="1542035574851" expanded="true" signature="15038:15098" ph="{...}" />
-            <marker date="1542035574851" expanded="true" signature="15196:15634" ph="{...}" />
-            <marker date="1542035574851" expanded="false" signature="15236:15346" ph="doInHibernate(session) → {" />
-            <marker date="1542035574851" expanded="false" signature="15611:15626" ph="}" />
-            <marker date="1542035574851" expanded="true" signature="15720:15784" ph="{...}" />
-            <marker date="1542035574851" expanded="true" signature="15907:16357" ph="{...}" />
-            <marker date="1542035574851" expanded="false" signature="15947:16057" ph="doInHibernate(session) → {" />
-            <marker date="1542035574851" expanded="false" signature="16334:16349" ph="}" />
-            <marker date="1542035574851" expanded="true" signature="16436:16769" ph="{...}" />
-            <marker date="1542035574851" expanded="false" signature="16476:16586" ph="doInHibernate(session) → {" />
-            <marker date="1542035574851" expanded="false" signature="16746:16761" ph="}" />
-            <marker date="1542035574851" expanded="true" signature="16873:17218" ph="{...}" />
-            <marker date="1542035574851" expanded="false" signature="16913:17023" ph="doInHibernate(session) → {" />
-            <marker date="1542035574851" expanded="false" signature="17195:17210" ph="}" />
-            <marker date="1542035574851" expanded="true" signature="17306:17755" ph="{...}" />
-            <marker date="1542035574851" expanded="false" signature="17346:17456" ph="doInHibernate(session) → {" />
-            <marker date="1542035574851" expanded="false" signature="17732:17747" ph="}" />
-            <marker date="1542035574851" expanded="true" signature="17870:18217" ph="{...}" />
-            <marker date="1542035574851" expanded="false" signature="17910:18020" ph="doInHibernate(session) → {" />
-            <marker date="1542035574851" expanded="false" signature="18194:18209" ph="}" />
-            <marker date="1542035574851" expanded="true" signature="18357:18716" ph="{...}" />
-            <marker date="1542035574851" expanded="false" signature="18397:18507" ph="doInHibernate(session) → {" />
-            <marker date="1542035574851" expanded="false" signature="18693:18708" ph="}" />
-            <marker date="1542035574851" expanded="true" signature="18790:19118" ph="{...}" />
-            <marker date="1542035574851" expanded="false" signature="18830:18940" ph="doInHibernate(session) → {" />
-            <marker date="1542035574851" expanded="false" signature="19095:19110" ph="}" />
-            <marker date="1542035574851" expanded="true" signature="19217:19557" ph="{...}" />
-            <marker date="1542035574851" expanded="false" signature="19257:19367" ph="doInHibernate(session) → {" />
-            <marker date="1542035574851" expanded="false" signature="19534:19549" ph="}" />
-            <marker date="1542035574851" expanded="true" signature="19631:19942" ph="{...}" />
-            <marker date="1542035574851" expanded="false" signature="19678:19788" ph="doInHibernate(session) → {" />
-            <marker date="1542035574851" expanded="false" signature="19919:19934" ph="}" />
-            <marker date="1542035574851" expanded="true" signature="20041:20364" ph="{...}" />
-            <marker date="1542035574851" expanded="false" signature="20088:20198" ph="doInHibernate(session) → {" />
-            <marker date="1542035574851" expanded="false" signature="20341:20356" ph="}" />
-            <marker date="1542035574851" expanded="true" signature="20431:20491" ph="{...}" />
-            <marker date="1542035574851" expanded="true" signature="20589:21027" ph="{...}" />
-            <marker date="1542035574851" expanded="false" signature="20629:20739" ph="doInHibernate(session) → {" />
-            <marker date="1542035574851" expanded="false" signature="21004:21019" ph="}" />
-            <marker date="1542035574851" expanded="true" signature="21113:21177" ph="{...}" />
-            <marker date="1542035574851" expanded="true" signature="21300:21762" ph="{...}" />
-            <marker date="1542035574851" expanded="false" signature="21340:21450" ph="doInHibernate(session) → {" />
-            <marker date="1542035574851" expanded="false" signature="21739:21754" ph="}" />
-            <marker date="1542035574851" expanded="true" signature="21844:22287" ph="{...}" />
-            <marker date="1542035574851" expanded="false" signature="21884:21994" ph="doInHibernate(session) → {" />
-            <marker date="1542035574851" expanded="false" signature="22264:22279" ph="}" />
-            <marker date="1542035574851" expanded="true" signature="22340:22584" ph="{...}" />
-            <marker date="1542035574851" expanded="false" signature="22380:22490" ph="doInHibernate(session) → {" />
-            <marker date="1542035574851" expanded="false" signature="22561:22576" ph="}" />
-            <marker date="1542035574851" expanded="true" signature="22637:22855" ph="{...}" />
-            <marker date="1542035574851" expanded="false" signature="22677:22761" ph="doInHibernate(session) → {" />
-            <marker date="1542035574851" expanded="false" signature="22832:22847" ph="}" />
-            <marker date="1542035574851" expanded="true" signature="22925:22987" ph="{...}" />
-            <marker date="1542035574851" expanded="true" signature="23071:23138" ph="{...}" />
-            <marker date="1542035574851" expanded="true" signature="23237:23815" ph="{...}" />
-            <marker date="1542035574851" expanded="false" signature="23290:23400" ph="doInHibernate(session) → {" />
-            <marker date="1542035574851" expanded="false" signature="23792:23807" ph="}" />
-            <marker date="1542035574851" expanded="true" signature="23929:24033" ph="{...}" />
-            <marker date="1542035574851" expanded="true" signature="24171:25036" ph="{...}" />
-            <marker date="1542035574851" expanded="false" signature="24407:24521" ph="doInHibernate(session) → {" />
-            <marker date="1542035574851" expanded="false" signature="24999:25018" ph="}" />
-            <marker date="1542035574851" expanded="true" signature="25147:25575" ph="{...}" />
-            <marker date="1542035574851" expanded="false" signature="25200:25310" ph="doInHibernate(session) → {" />
-            <marker date="1542035574851" expanded="false" signature="25552:25567" ph="}" />
-            <marker date="1542035574851" expanded="true" signature="25655:25727" ph="{...}" />
-            <marker date="1542035574851" expanded="true" signature="25821:25898" ph="{...}" />
-            <marker date="1542035574851" expanded="true" signature="26007:26585" ph="{...}" />
-            <marker date="1542035574851" expanded="false" signature="26060:26170" ph="doInHibernate(session) → {" />
-            <marker date="1542035574851" expanded="false" signature="26562:26577" ph="}" />
-            <marker date="1542035574851" expanded="true" signature="26710:26825" ph="{...}" />
-            <marker date="1542035574851" expanded="true" signature="26974:27879" ph="{...}" />
-            <marker date="1542035574851" expanded="false" signature="27250:27364" ph="doInHibernate(session) → {" />
-            <marker date="1542035574851" expanded="false" signature="27842:27861" ph="}" />
-            <marker date="1542035574851" expanded="true" signature="28001:28429" ph="{...}" />
-            <marker date="1542035574851" expanded="false" signature="28054:28164" ph="doInHibernate(session) → {" />
-            <marker date="1542035574851" expanded="false" signature="28406:28421" ph="}" />
-            <marker date="1542035574851" expanded="true" signature="28516:28577" ph="{...}" />
-            <marker date="1542035574851" expanded="true" signature="28715:29444" ph="{...}" />
-            <marker date="1542035574851" expanded="false" signature="28839:28949" ph="doInHibernate(session) → {" />
-            <marker date="1542035574851" expanded="false" signature="29421:29436" ph="}" />
-            <marker date="1542035574851" expanded="true" signature="29525:29604" ph="{...}" />
-            <marker date="1542035574851" expanded="true" signature="29704:29781" ph="{...}" />
-            <marker date="1542035574851" expanded="true" signature="29895:29991" ph="{...}" />
-            <marker date="1542035574851" expanded="true" signature="30148:31018" ph="{...}" />
-            <marker date="1542035574851" expanded="false" signature="30275:30385" ph="doInHibernate(session) → {" />
-            <marker date="1542035574851" expanded="false" signature="30995:31010" ph="}" />
-            <marker date="1542035574851" expanded="true" signature="31095:31160" ph="{...}" />
-            <marker date="1542035574851" expanded="true" signature="31251:31321" ph="{...}" />
-            <marker date="1542035574851" expanded="true" signature="31427:32012" ph="{...}" />
-            <marker date="1542035574851" expanded="false" signature="31484:31594" ph="doInHibernate(session) → {" />
-            <marker date="1542035574851" expanded="false" signature="31989:32004" ph="}" />
-            <marker date="1542035574851" expanded="true" signature="32084:32269" ph="{...}" />
-            <marker date="1542035574851" expanded="true" signature="32344:32412" ph="{...}" />
-            <marker date="1542035574851" expanded="true" signature="32501:32574" ph="{...}" />
-            <marker date="1542035574851" expanded="true" signature="32678:33324" ph="{...}" />
-            <marker date="1542035574851" expanded="false" signature="32749:32859" ph="doInHibernate(session) → {" />
-            <marker date="1542035574851" expanded="false" signature="33273:33288" ph="}" />
-            <marker date="1542035574851" expanded="true" signature="33431:33814" ph="{...}" />
-            <marker date="1542035574851" expanded="true" signature="33867:34419" ph="{...}" />
-            <marker date="1542035574851" expanded="true" signature="34475:35012" ph="{...}" />
-            <marker date="1542035574851" expanded="true" signature="35137:35473" ph="{...}" />
-            <marker date="1542035574851" expanded="true" signature="35556:36760" ph="{...}" />
-            <marker date="1542035574851" expanded="false" signature="35661:35676" ph=" { " />
-            <marker date="1542035574851" expanded="false" signature="35697:35707" ph=" }" />
-            <marker date="1542035574851" expanded="true" signature="35799:36754" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-          <folding>
-            <element signature="n#dependency#0;n#dependencies#0;n#project#0;n#!!top" expanded="false" />
-            <element signature="n#dependency#5;n#dependencies#0;n#project#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/config/BeanLocations.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
-          <folding />
+        <state relative-caret-position="571">
+          <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/spring/beans/User.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="41" lean-forward="false" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/beans/Stock.xml">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
-          <caret line="16" column="8" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+          <caret line="16" column="8" lean-forward="false" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate/Stock.hbm.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qlbv/bo/PatientBo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="4" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
-          <folding />
+        <state relative-caret-position="306">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/database/DataSource.xml">
+    <entry file="file://$PROJECT_DIR$/resources/js/Login/login.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="57" lean-forward="false" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
-          <folding />
+        <state relative-caret-position="255">
+          <caret line="15" column="46" lean-forward="false" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qlbv/dao/PatientDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/css/my-style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="548">
+          <caret line="238" column="0" lean-forward="false" selection-start-line="238" selection-start-column="0" selection-end-line="238" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/spring/database/Hibernate.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="80" lean-forward="true" selection-start-line="12" selection-start-column="80" selection-end-line="12" selection-end-column="80" />
+        <state relative-caret-position="357">
+          <caret line="21" column="49" lean-forward="false" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mkyong/common/App.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qlbv/framework/Session.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="36" column="35" lean-forward="true" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
+        <state relative-caret-position="201">
+          <caret line="22" column="11" lean-forward="false" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mkyong/common/Helper.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qlbv/dao/MedicalRecordDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="43" column="5" lean-forward="true" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+        <state relative-caret-position="102">
+          <caret line="13" column="16" lean-forward="false" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring/2.5.6/spring-2.5.6.jar!/org/springframework/core/NestedRuntimeException.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="23" column="35" lean-forward="true" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate/Patient.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="19" lean-forward="false" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/util/function/Predicate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="48" column="12" lean-forward="false" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/beans/RequestPatient.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qlbv/model/MedicalRecord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="31" lean-forward="false" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#791#792#0" expanded="false" />
+            <element signature="e#834#835#0" expanded="false" />
+            <element signature="e#865#866#0" expanded="false" />
+            <element signature="e#895#896#0" expanded="false" />
+            <element signature="e#917#918#0" expanded="false" />
+            <element signature="e#960#961#0" expanded="false" />
+            <element signature="e#991#992#0" expanded="false" />
+            <element signature="e#1022#1023#0" expanded="false" />
+            <element signature="e#1045#1046#0" expanded="false" />
+            <element signature="e#1090#1091#0" expanded="false" />
+            <element signature="e#1123#1124#0" expanded="false" />
+            <element signature="e#1153#1154#0" expanded="false" />
+            <element signature="e#1173#1174#0" expanded="false" />
+            <element signature="e#1214#1215#0" expanded="false" />
+            <element signature="e#1241#1242#0" expanded="false" />
+            <element signature="e#1272#1273#0" expanded="false" />
+            <element signature="e#1293#1294#0" expanded="false" />
+            <element signature="e#1336#1337#0" expanded="false" />
+            <element signature="e#1365#1366#0" expanded="false" />
+            <element signature="e#1394#1395#0" expanded="false" />
+            <element signature="e#1413#1414#0" expanded="false" />
+            <element signature="e#1452#1453#0" expanded="false" />
+            <element signature="e#1477#1478#0" expanded="false" />
+            <element signature="e#1505#1506#0" expanded="false" />
+            <element signature="e#1523#1524#0" expanded="false" />
+            <element signature="e#1560#1561#0" expanded="false" />
+            <element signature="e#1583#1584#0" expanded="false" />
+            <element signature="e#1615#1616#0" expanded="false" />
+            <element signature="e#1639#1640#0" expanded="false" />
+            <element signature="e#1686#1687#0" expanded="false" />
+            <element signature="e#1721#1722#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring/2.5.6/spring-2.5.6.jar!/org/springframework/beans/factory/BeanFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="12" column="11" lean-forward="false" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/config/BeanLocations.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="44" lean-forward="false" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/beans/MedicalRecord.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="34" lean-forward="false" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate/MedicalRecord.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="32" lean-forward="false" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="32" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate/User.hbm.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="12" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+        <state relative-caret-position="170">
+          <caret line="10" column="65" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="65" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mkyong/model/User.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate/RequestPatient.hbm.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="869">
-          <caret line="59" column="76" lean-forward="false" selection-start-line="59" selection-start-column="76" selection-end-line="59" selection-end-column="76" />
+        <state relative-caret-position="221">
+          <caret line="13" column="30" lean-forward="false" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qlbv/common/Helper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2329">
+          <caret line="147" column="19" lean-forward="false" selection-start-line="147" selection-start-column="19" selection-end-line="147" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qlbv/model/RequestPatient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="24" column="22" lean-forward="false" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
           <folding>
-            <element signature="e#417#418#0" expanded="true" />
-            <element signature="e#440#441#0" expanded="true" />
-            <element signature="e#480#481#0" expanded="true" />
-            <element signature="e#510#511#0" expanded="true" />
-            <element signature="e#547#548#0" expanded="true" />
-            <element signature="e#575#576#0" expanded="true" />
-            <element signature="e#627#628#0" expanded="true" />
-            <element signature="e#667#668#0" expanded="true" />
-            <element signature="e#701#702#0" expanded="true" />
+            <element signature="e#584#585#0" expanded="true" />
+            <element signature="e#604#605#0" expanded="true" />
+            <element signature="e#645#646#0" expanded="true" />
+            <element signature="e#672#673#0" expanded="true" />
+            <element signature="e#703#704#0" expanded="true" />
             <element signature="e#726#727#0" expanded="true" />
-            <element signature="e#772#773#0" expanded="true" />
-            <element signature="e#806#807#0" expanded="true" />
-            <element signature="e#840#841#0" expanded="true" />
-            <element signature="e#865#866#0" expanded="true" />
-            <element signature="e#911#912#0" expanded="true" />
-            <element signature="e#945#946#0" expanded="true" />
+            <element signature="e#771#772#0" expanded="true" />
+            <element signature="e#804#805#0" expanded="true" />
+            <element signature="e#835#836#0" expanded="true" />
+            <element signature="e#858#859#0" expanded="true" />
+            <element signature="e#903#904#0" expanded="true" />
+            <element signature="e#936#937#0" expanded="true" />
+            <element signature="e#967#968#0" expanded="true" />
+            <element signature="e#990#991#0" expanded="true" />
+            <element signature="e#1035#1036#0" expanded="true" />
+            <element signature="e#1068#1069#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mkyong/bo/UserBo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qlbv/bo/BoManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="34" column="32" lean-forward="false" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#477#478#0" expanded="true" />
-            <element signature="e#523#524#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mkyong/dao/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#374#375#0" expanded="true" />
-            <element signature="e#414#415#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mkyong/request/login/LoginRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        <state relative-caret-position="187">
+          <caret line="14" column="30" lean-forward="false" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mkyong/request/BaseRequest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qlbv/model/Patient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="37" column="39" lean-forward="false" selection-start-line="37" selection-start-column="39" selection-end-line="37" selection-end-column="39" />
+        <state relative-caret-position="68">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/rythm/medical/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="47" lean-forward="true" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qlbv/model/view/RequestPatientView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="26" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="26" />
+          <folding>
+            <element signature="e#565#566#0" expanded="true" />
+            <element signature="e#588#589#0" expanded="true" />
+            <element signature="e#633#634#0" expanded="true" />
+            <element signature="e#666#667#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qlbv/request/medical/MedicalRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="20" column="43" lean-forward="false" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qlbv/request/login/LoginRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="37" column="31" lean-forward="false" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qlbv/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="46" column="8" lean-forward="false" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qlbv/bo/UserBo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="38" column="31" lean-forward="false" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
+          <folding>
+            <element signature="e#704#705#0" expanded="true" />
+            <element signature="e#749#750#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qlbv/request/BaseRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="79" column="41" lean-forward="false" selection-start-line="79" selection-start-column="41" selection-end-line="79" selection-end-column="41" />
+          <folding>
+            <element signature="e#5003#5004#0" expanded="true" />
+            <element signature="e#5057#5058#0" expanded="true" />
+            <element signature="e#5181#5182#0" expanded="true" />
+            <element signature="e#5225#5226#0" expanded="true" />
+            <element signature="e#5281#5282#0" expanded="true" />
+            <element signature="e#5320#5321#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qlbv/framework/SessionManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qlbv/common/Constant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="31" lean-forward="false" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qlbv/request/medical/RegistPatientRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="673">
+          <caret line="69" column="68" lean-forward="false" selection-start-line="69" selection-start-column="68" selection-end-line="69" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/rythm/medical/regist.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="571">
+          <caret line="48" column="45" lean-forward="false" selection-start-line="48" selection-start-column="45" selection-end-line="48" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/js/Medical/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="77" column="0" lean-forward="false" selection-start-line="77" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/js/Medical/regist.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="83" column="0" lean-forward="false" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qlbv/request/login/WelcomeRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qlbv/bo/MedicalRecordBo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qlbv/bo/RequestPatientBo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="39" column="41" lean-forward="false" selection-start-line="39" selection-start-column="41" selection-end-line="39" selection-end-column="41" />
+          <folding>
+            <element signature="e#907#908#0" expanded="true" />
+            <element signature="e#954#955#0" expanded="true" />
+            <element signature="e#1108#1109#0" expanded="true" />
+            <element signature="e#1161#1162#0" expanded="true" />
+            <element signature="e#1218#1219#0" expanded="true" />
+            <element signature="e#1276#1277#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qlbv/dao/RequestPatientDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="30" column="41" lean-forward="false" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
+          <folding>
+            <element signature="e#589#590#0" expanded="true" />
+            <element signature="e#641#642#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1712,7 +1436,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: org.hibernate:hibernate:3.5.4-Final</last-edited>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

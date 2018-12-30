@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="com.qlbv.model.MedicalRecord" table="medical_record" catalog="my_doctor">
+        <id name="recordId" type="java.lang.Long">
+            <column name="RECORD_ID" />
+            <generator class="identity" />
+        </id>
+        <property name="patientId" type="java.lang.Long">
+            <column name="PATIENT_ID" not-null="true" unique="false" />
+        </property>
+        <property name="doctorId" type="java.lang.Long">
+            <column name="DOCTOR_ID" not-null="true" unique="false" />
+        </property>
+        <property name="reason" type="text">
+            <column name="REASON" not-null="true" unique="false" />
+        </property>
+        <property name="symptom" type="text">
+            <column name="SYMPTOM" not-null="false" unique="false" />
+        </property>
+        <property name="guess" type="text">
+            <column name="GUESS" not-null="false" unique="false" />
+        </property>
+        <property name="note" type="text">
+            <column name="NOTE" not-null="false" unique="false" />
+        </property>
+        <property name="createdDtm" type="java.lang.Long">
+            <column name="CREATED_DTM" not-null="false" unique="false" />
+        </property>
+    </class>
+</hibernate-mapping>
