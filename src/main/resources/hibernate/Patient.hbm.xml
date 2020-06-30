@@ -21,6 +21,12 @@
         <property name="birthday" type="java.lang.Long">
             <column name="BIRTHDAY" not-null="false" unique="false" />
         </property>
+        <property name="job" type="text">
+            <column name="JOB" not-null="false" unique="false" />
+        </property>
+        <property name="nation" type="text">
+            <column name="NATION" not-null="false" unique="false" />
+        </property>
         <property name="createDtm" type="java.lang.Long">
             <column name="CREATE_DTM" not-null="false" unique="false" />
         </property>

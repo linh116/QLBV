@@ -26,6 +26,10 @@ public class UserDao extends HibernateDaoSupport{
 		return (User)list.get(0);
 	}
 
+	public static void main(String[] args){
+		System.out.println(Helper.md5Hash("123456"));
+	}
+
     public User findByUserNameAndPassword(String userName, String password){
         String passwordHashed = Helper.md5Hash(password);
 

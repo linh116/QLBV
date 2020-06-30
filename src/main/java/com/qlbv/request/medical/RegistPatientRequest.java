@@ -10,6 +10,7 @@ import com.qlbv.model.RequestPatient;
 import com.qlbv.request.BaseRequest;
 import com.sun.net.httpserver.HttpExchange;
 import org.apache.commons.collections.CollectionUtils;
+import org.rythmengine.logger.Logger;
 
 import java.io.IOException;
 import java.text.ParseException;
@@ -19,7 +20,6 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 public class RegistPatientRequest extends BaseRequest {
-
     public RegistPatientRequest(HttpExchange httpExchange, String templateFilePath) throws IOException {
         super(httpExchange, templateFilePath);
     }
@@ -59,6 +59,7 @@ public class RegistPatientRequest extends BaseRequest {
             patient.setGender(patientGender);
             BoManager.patientBo.save(patient);
             patientId = patient.getPatientId();
+            Logger.info("New Patient: %s", patient);
         }
 
         //dang ky benh nhan kham trong hom nay:
