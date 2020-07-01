@@ -38,6 +38,9 @@ public class RegistPatientRequest extends BaseRequest {
         String patientPhone = Helper.getString(params, "patientPhone");
         String patientBD = Helper.getString(params, "patientBD");
         Boolean patientGender = Helper.getBoolean(params, "patientGender");
+        String patientJob = Helper.getString(params, "patientJob");
+        String patientNation = Helper.getString(params, "patientNation");
+
         long birthdayLong = 0;
         try {
             Date birthDay = sdf.parse(patientBD);
@@ -57,6 +60,8 @@ public class RegistPatientRequest extends BaseRequest {
             patient.setPhone(patientPhone);
             patient.setUpdateDtm(System.currentTimeMillis());
             patient.setGender(patientGender);
+            patient.setJob(patientJob);
+            patient.setNation(patientNation);
             BoManager.patientBo.save(patient);
             patientId = patient.getPatientId();
             Logger.info("New Patient: %s", patient);

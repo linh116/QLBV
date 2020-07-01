@@ -16,6 +16,7 @@ import java.net.InetSocketAddress;
 
 public class App
 {
+	static final Logger LOGGER = new Logger();
     public static void main( String[] args ) throws IOException {
 		HttpServer server = HttpServer.create(new InetSocketAddress(8000), 0);
 		HttpContext context = server.createContext("/", new BaseHandler());
@@ -25,6 +26,7 @@ public class App
 		server.createContext("/common", new CommonHandler());
 		server.setExecutor(null); // creates a default executor
 		server.start();
+		LOGGER.info("start server success");
 
 		/*Patient patent= new Patient();
 		patent.setUpdateDtm(System.currentTimeMillis());

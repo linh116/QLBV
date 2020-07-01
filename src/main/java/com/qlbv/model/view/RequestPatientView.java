@@ -15,6 +15,8 @@ public class RequestPatientView extends Patient{
 		setGender(patient.getGender());
 		setPhone(patient.getPhone());
 		setUpdateDtm(patient.getUpdateDtm());
+		setNation(patient.getNation());
+		setJob(patient.getJob());
 	}
 
 	public Long getRequestId() {
