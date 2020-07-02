@@ -10,7 +10,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class BaseHandler implements HttpHandler {
-    public void handle(HttpExchange httpExchange) throws IOException {
+    public void handle(HttpExchange httpExchange) {
 //        new LoginRequest(httpExchange, "resources/template/helloworld.html");
     }
 

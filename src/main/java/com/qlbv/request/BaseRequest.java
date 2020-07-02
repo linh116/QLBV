@@ -173,7 +173,7 @@ public abstract class BaseRequest implements HttpHandler {
         exchange.close();
     }
 
-    public void handle(HttpExchange httpExchange) throws IOException {
+    public void handle(HttpExchange httpExchange) {
 
     }
 

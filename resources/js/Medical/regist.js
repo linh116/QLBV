@@ -15,6 +15,8 @@ $('#btn-regist').on('click', function () {
                 patientAddress: $('#address-patient').val(),
                 patientPhone: $('#phone-patient').val(),
                 patientBD: $('#bd-patient').val(),
+                patientJob: $('#job-patient').val(),
+                patientNation: $('#nation-patient').val(),
             },
             success: function (result) {
                 let data = JSON.parse(result);

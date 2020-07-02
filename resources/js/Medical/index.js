@@ -29,6 +29,8 @@ function showInfo(patientId) {
             }
             $('#address-patient').text(_listBN[i].address);
             $('#phone-patient').text(_listBN[i].phone);
+            $('#job-patient').text(_listBN[i].address);
+            $('#nation-patient').text(_listBN[i].phone);
             $('#bd-patient').text(new Date(_listBN[i].birthday).customFormat('#DD#/#MM#/#YYYY#'));
         }
     }
@@ -40,6 +42,11 @@ $('#btn-khambenh').on('click', function () {
     $('#btn-khambenh').attr('disabled', 'disabled');
     $('#btn-save-diagnose').removeAttr('disabled');
 });
+
+$('#btn-history').on('click', function () {
+    console.log('click show history 1');
+});
+
 
 $('#btn-save-diagnose').on('click', function () {
     $.ajax(

@@ -199,7 +199,7 @@ body {
 
 /*scroll list*/
 .list-group{
-    max-height: 300px;
+    max-height: 325px;
     margin-bottom: 10px;
     overflow:scroll;
     -webkit-overflow-scrolling: touch;

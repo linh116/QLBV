@@ -89,7 +89,7 @@ function showModalSearchPatient(callbackFunc) {
     let typingTimer;                //timer identifier
     let doneTypingInterval = 400;  //time in ms, 0.4 second
     let $nameInput = $('#searchName');
-    let $birthdayInput = $('#searchNgaySinh')
+    let $birthdayInput = $('#searchNgaySinh');
     //on keyup, start the countdown
     $nameInput.on('keyup', function () {
         clearTimeout(typingTimer);

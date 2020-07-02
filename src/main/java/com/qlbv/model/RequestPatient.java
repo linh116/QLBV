@@ -5,8 +5,9 @@ import java.io.Serializable;
 public class RequestPatient implements Serializable {
 
 	private static final long serialVersionUID = 1L;
-	public static enum REQUEST_STATUS{DEFAULT, WAITING, DONE};
-	private Long requestId;
+	public enum REQUEST_STATUS{DEFAULT, WAITING, DONE}
+
+    private Long requestId;
 	private Long patientId;
 	private String status;
 	private Long createDtm;

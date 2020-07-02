@@ -34,7 +34,7 @@ public class StaticHandler implements HttpHandler
         }
     }
 
-    public void handle(HttpExchange httpExchange) throws IOException {
+    public void handle(HttpExchange httpExchange) {
         String path = httpExchange.getRequestURI().getPath();
         try {
             path = path.substring(1);
