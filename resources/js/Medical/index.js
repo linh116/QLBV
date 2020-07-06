@@ -43,8 +43,55 @@ $('#btn-khambenh').on('click', function () {
     $('#btn-save-diagnose').removeAttr('disabled');
 });
 
+//setup before find patient
+var _tableHistoryPatient;
 $('#btn-history').on('click', function () {
-    console.log('click show history 1');
+    //get history of patients
+    debugger;
+    $.ajax(
+        {
+            method: "post",
+            url: "/medical",
+            data: {
+                action: 'fetch_history_patient',
+                patientId: $('#id-patient').text(),
+            },
+            success: function (result) {
+                console.log(result);
+                if (_tableHistoryPatient != undefined) {
+                    _tableHistoryPatient.dataTable().fnDestroy();
+                }
+                let data = JSON.parse(result);
+                let listView = JSON.parse(data.data.listMedicalRecord);
+                if (listView != null) {
+                    renderHistory(listView);
+                    $('#modal-history-patient').modal('show');
+                } else {
+                    alert("Không có bệnh án")
+                }
+            },
+            error: function (e) {
+                alert("Có lỗi xảy ra!")
+            }
+        }
+    );
+
+    function renderHistory(listView) {
+        $('#table-history-patient-body').html('');
+        let newHtml = '';
+        for (let i = 0; i < listView.length; i++) {
+            let view = listView[i];
+            newHtml += '<tr id="patient-row-' + i + '">\n' +
+                '<td>' + new Date(view.createdDtm).customFormat('#DD#/#MM#/#YYYY#') + '</td>\n' +
+                '<td>' + view.symptom + '</td>\n' +
+                '<td>' + view.guess + '</td>\n' +
+                '<td>' + view.note + '</td>\n' +
+                '</tr>';
+        }
+        $('#table-history-patient-body').html(newHtml);
+
+    }
+
 });
 
 
@@ -92,9 +139,9 @@ function fetchRequestPatientList(withInteval) {
             success: function (result) {
                 data = JSON.parse(result);
                 if (data.data.listRequest == undefined) {
-                    if(withInteval){
+                    if (withInteval) {
                         console.log("Hiện không có bệnh nhân nào đang chờ khám");
-                    }else{
+                    } else {
                         alert("Hiện không có bệnh nhân nào đang chờ khám");
                     }
                 } else {

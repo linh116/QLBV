@@ -28,4 +28,8 @@ public class MedicalRecordBo {
 		return medicalRecordDao.getListMedicalRecord(listId);
 	}
 
+	public List<MedicalRecord> getListMedicalRecordOfPatient(Long patientId){
+        return medicalRecordDao.getListMedicalRecordOfPatient(patientId);
+    }
+
 }
