@@ -29,14 +29,6 @@ public class App
 		server.start();
 		LOGGER.info("start server success");
 
-		/*Patient patent= new Patient();
-		patent.setUpdateDtm(System.currentTimeMillis());
-		patent.setPhone("0972708787");
-		patent.setPatientName("Linhnd");
-		patent.setCreateDtm(System.currentTimeMillis());
-		patent.setBirthday(System.currentTimeMillis());
-		patent.setAddress("daklak");
-		BoManager.patientBo.save(patent);*/
     }
 
     private static void initRythm(){
