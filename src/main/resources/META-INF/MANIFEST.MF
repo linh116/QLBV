@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Class-Path: libs/commons-logging-1.1.1.jar libs/gson-2.8.2.jar libs/co
+ mmons-lang3-3.3.2.jar libs/ecj-4.4.jar libs/fastjson-1.1.39.jar libs/
+ mvel2-2.1.5.Final.jar libs/pat-1.5.3.jar libs/rythm-engine-1.1.1-SNAP
+ SHOT.jar libs/commons-collections-3.2.2.jar libs/jta-1.1.jar libs/xml
+ -apis-1.0.b2.jar libs/dom4j-1.6.1.jar libs/antlr-2.7.7.jar libs/ehcac
+ he-1.2.3.jar libs/protobuf-java-3.6.1.jar libs/asm-attrs-1.5.3.jar li
+ bs/mysql-connector-java-8.0.16.jar libs/spring-2.5.6.jar libs/asm-3.1
+ .jar libs/okio-1.14.0.jar libs/hibernate-3.2.3.ga.jar libs/cglib-2.2.
+ jar libs/okhttp-3.11.0.jar
+Main-Class: com.qlbv.common.App
+

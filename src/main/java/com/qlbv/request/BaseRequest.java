@@ -3,6 +3,7 @@ package com.qlbv.request;
 import com.google.gson.Gson;
 import com.qlbv.bo.BoManager;
 import com.qlbv.common.Constant;
+import com.qlbv.common.Logger;
 import com.qlbv.framework.Session;
 import com.qlbv.framework.SessionManager;
 import com.qlbv.handler.filter.ParameterFilter;
@@ -10,17 +11,18 @@ import com.qlbv.model.User;
 import com.sun.net.httpserver.Headers;
 import com.sun.net.httpserver.HttpExchange;
 import com.sun.net.httpserver.HttpHandler;
+import org.apache.commons.lang3.StringUtils;
 import org.rythmengine.Rythm;
-import org.springframework.context.ApplicationContext;
-import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-import java.io.File;
-import java.io.IOException;
-import java.io.OutputStream;
-import java.net.URL;
+import java.io.*;
+import java.nio.charset.StandardCharsets;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 public abstract class BaseRequest implements HttpHandler {
     String template;
@@ -28,7 +30,9 @@ public abstract class BaseRequest implements HttpHandler {
     protected User user;
     Map<String, Object> dataView = new HashMap<String, Object>();
     Map<String, Object> baseRequest = new HashMap<String, Object>();
+    Logger LOGGER = new Logger();
     protected HttpExchange httpExchange;
+
     public BaseRequest(HttpExchange httpExchange, String templateFilePath) throws IOException {
         this.httpExchange = httpExchange;
         OutputStream os = httpExchange.getResponseBody();
@@ -37,13 +41,13 @@ public abstract class BaseRequest implements HttpHandler {
         settingRythmEngine();
 
         //check session
-        if (!hasSession() && !httpExchange.getRequestURI().getPath().equals("/login")){
+        if (!hasSession() && !httpExchange.getRequestURI().getPath().equals("/login")) {
             respondRedirect(httpExchange, "/login");
         }
 
         //filter, get parameter
         ParameterFilter.doFilter(httpExchange);
-        params = (Map<String, Object>)httpExchange.getAttribute("parameters");
+        params = (Map<String, Object>) httpExchange.getAttribute("parameters");
 
         //init templateFile;
         this.template = templateFilePath;
@@ -54,9 +58,9 @@ public abstract class BaseRequest implements HttpHandler {
         int responseCode = doProcess();
         baseRequest.put("responseCode", responseCode);
         String response = "";
-        if (getMethod().equalsIgnoreCase("GET")){
+        if (getMethod().equalsIgnoreCase("GET")) {
             response = renderGet();
-        }else{
+        } else {
             response = renderPost();
         }
 
@@ -72,17 +76,17 @@ public abstract class BaseRequest implements HttpHandler {
     private boolean hasSession() {
         Headers reqHeaders = httpExchange.getRequestHeaders();
         List<String> cookies = reqHeaders.get("Cookie");
-        if (cookies != null){
+        if (cookies != null) {
             for (String cookie : cookies) {
-                if (cookie.contains(Constant.SESSIONID_COOKIENAME)){
-                    if (SessionManager.getAttribute("user") == null){
+                if (cookie.contains(Constant.SESSIONID_COOKIENAME)) {
+                    if (SessionManager.getAttribute("user") == null) {
                         String session = getCookie(Constant.SESSIONID_COOKIENAME);
                         Long userId = SessionManager.getSession(session);
                         User currentUser = BoManager.userBo.findUserById(userId);
-                        if(currentUser == null) return false;
+                        if (currentUser == null) return false;
                         user = currentUser;
                         SessionManager.setAttribute("user", user);
-                    }else{
+                    } else {
                         user = (User) SessionManager.getAttribute("user");
                     }
                     return true;
@@ -92,7 +96,23 @@ public abstract class BaseRequest implements HttpHandler {
         return false;
     }
 
-    protected String getCookie(String name){
+    private void writeFile(String data){
+        OutputStream os = null;
+        try {
+            os = new FileOutputStream(new File(""));
+            os.write(data.getBytes(), 0, data.length());
+        } catch (IOException e) {
+            e.printStackTrace();
+        }finally{
+            try {
+                os.close();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+    }
+
+    protected String getCookie(String name) {
         Headers headers = httpExchange.getRequestHeaders();
         if (headers != null) {
             List<String> cookies = headers.get("Cookie");
@@ -115,23 +135,45 @@ public abstract class BaseRequest implements HttpHandler {
         return new Gson().toJson(baseRequest);
     }
 
+    private static String getResourceFileAsString(String filePath) {
+        StringBuilder stringBuilder = new StringBuilder();
+        try (Stream stream = Files.lines( Paths.get(filePath), StandardCharsets.UTF_8))
+        {
+            stream.forEach(s -> stringBuilder.append(s));
+        }
+        catch (IOException e)
+        {
+            e.printStackTrace();
+        }
+        return stringBuilder.toString();
+
+//        ClassLoader classLoader = ClassLoader.getSystemClassLoader();
+//        try (InputStream is = classLoader.getResourceAsStream(fileName)) {
+//            if (is == null) return null;
+//            try (InputStreamReader isr = new InputStreamReader(is, StandardCharsets.UTF_8);
+//                 BufferedReader reader = new BufferedReader(isr)) {
+//                return reader.lines().collect(Collectors.joining(System.lineSeparator()));
+//            }
+//        }
+    }
+
     private String renderGet() {
-        try{
-            URL resources = Thread.currentThread()
-                    .getContextClassLoader()
-                    .getResource("rythm/" + template);
-            File rootRe;
+        try {
+            LOGGER.info("resources/rythm/" + template);
+
             String response;
-            if (resources != null){
-                rootRe = new File(resources.getFile());
-                response = Rythm.render(rootRe, dataView);
+            String resources = getResourceFileAsString("resources/rythm/" + template);
+            if (StringUtils.isNotEmpty(resources)){
+                response = Rythm.renderString(resources, dataView);
             }else{
+                LOGGER.info("Cannot found template file " + "resources/rythm/" + template);
                 response = "Cannot found template file";
             }
 
 
             return response;
-        }catch (Exception e){
+        } catch (Exception e) {
+            LOGGER.info("Exception" + e);
             e.printStackTrace();
             return "null";
         }
@@ -139,30 +181,30 @@ public abstract class BaseRequest implements HttpHandler {
 
 
     protected int doProcess() {
-        if (getMethod().equalsIgnoreCase("GET")){
+        if (getMethod().equalsIgnoreCase("GET")) {
             return doGet();
-        }else{
+        } else {
             return doPost();
         }
     }
 
-    protected String getMethod(){
+    protected String getMethod() {
         return httpExchange.getRequestMethod();
     }
 
     abstract protected int doGet();
+
     abstract protected int doPost();
 
-    protected void putErrorToView(Object error){
+    protected void putErrorToView(Object error) {
         putToView("errorMsg", error);
     }
 
-    protected void putToView(String name, Object obj){
+    protected void putToView(String name, Object obj) {
         dataView.put(name, obj);
     }
 
-    public static void respondRedirect(HttpExchange exchange, String whereTo)
-    {
+    public static void respondRedirect(HttpExchange exchange, String whereTo) {
         String hostPort = exchange.getRequestHeaders().get("HOST").get(0);
         exchange.getResponseHeaders().set("Location", "http://" + hostPort + whereTo);
         try {

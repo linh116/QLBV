@@ -1,0 +1,50 @@
+<component name="ArtifactManager">
+  <artifact name="QLBV">
+    <output-path>$PROJECT_DIR$/classes/artifacts/QLBV</output-path>
+    <root id="root">
+      <element id="archive" name="SpringExample.jar">
+        <element id="module-output" name="SpringExample" />
+      </element>
+      <element id="directory" name="libs">
+        <element id="library" level="project" name="Maven: antlr:antlr:2.7.7" />
+        <element id="library" level="project" name="Maven: asm:asm-attrs:1.5.3" />
+        <element id="library" level="project" name="Maven: cglib:cglib:2.2" />
+        <element id="library" level="project" name="Maven: asm:asm:3.1" />
+        <element id="library" level="project" name="Maven: com.alibaba:fastjson:1.2.11" />
+        <element id="library" level="project" name="Maven: com.google.code.gson:gson:2.8.2" />
+        <element id="library" level="project" name="Maven: com.google.protobuf:protobuf-java:3.6.1" />
+        <element id="library" level="project" name="Maven: com.squareup.okhttp3:okhttp:3.11.0" />
+        <element id="library" level="project" name="Maven: com.squareup.okio:okio:1.14.0" />
+        <element id="library" level="project" name="Maven: com.stevesoft.pat:pat:1.5.3" />
+        <element id="library" level="project" name="Maven: commons-collections:commons-collections:3.2.2" />
+        <element id="library" level="project" name="Maven: commons-io:commons-io:2.4" />
+        <element id="library" level="project" name="Maven: commons-logging:commons-logging:1.1.1" />
+        <element id="library" level="project" name="Maven: dom4j:dom4j:1.6.1" />
+        <element id="library" level="project" name="Maven: javax.transaction:jta:1.0.1B" />
+        <element id="library" level="project" name="Maven: mysql:mysql-connector-java:8.0.16" />
+        <element id="library" level="project" name="Maven: net.sf.ehcache:ehcache:1.2.3" />
+        <element id="library" level="project" name="Maven: org.apache.commons:commons-lang3:3.4" />
+        <element id="library" level="project" name="Maven: org.hibernate:hibernate:3.2.3.ga" />
+        <element id="library" level="project" name="Maven: org.mvel:mvel2:2.2.8.Final" />
+        <element id="library" level="project" name="Maven: org.eclipse.jdt.core.compiler:ecj:4.6.1" />
+        <element id="library" level="project" name="Maven: org.rythmengine:rythm-engine:1.2.1" />
+        <element id="library" level="project" name="Maven: org.springframework:spring:2.5.6" />
+        <element id="library" level="project" name="Maven: xml-apis:xml-apis:1.0.b2" />
+        <element id="library" level="project" name="Maven: javax.transaction:jta:1.1" />
+        <element id="library" level="project" name="rythm" />
+      </element>
+      <element id="directory" name="hibernate">
+        <element id="dir-copy" path="$PROJECT_DIR$/src/main/resources/hibernate" />
+      </element>
+      <element id="directory" name="properties">
+        <element id="dir-copy" path="$PROJECT_DIR$/src/main/resources/properties" />
+      </element>
+      <element id="directory" name="resources">
+        <element id="dir-copy" path="$PROJECT_DIR$/resources" />
+      </element>
+      <element id="directory" name="spring">
+        <element id="dir-copy" path="$PROJECT_DIR$/src/main/resources/spring" />
+      </element>
+    </root>
+  </artifact>
+</component>
