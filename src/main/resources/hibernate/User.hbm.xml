@@ -10,5 +10,6 @@
         <property name="displayName" column="DISPLAY_NAME" type="text"/>
         <property name="username" column="USERNAME" type="text"/>
         <property name="password" column="PASSWORD" type="text"/>
+        <property name="avatar" column="AVATAR" type="text" />
     </class>
 </hibernate-mapping>

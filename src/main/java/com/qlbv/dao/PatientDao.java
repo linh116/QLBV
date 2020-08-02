@@ -43,6 +43,7 @@ public class PatientDao extends HibernateDaoSupport {
 
 			if(StringUtils.isNotEmpty(name)){
 				query2.setParameter("patientName", "%" + name + "%");
+				query2.setParameter("phone", "%" + name + "%");
 			}
 			if(birthday != null && birthday > 0){
 				query2.setParameter("birthday", birthday);
@@ -64,7 +65,7 @@ public class PatientDao extends HibernateDaoSupport {
 	private String buildQuerySelectWithNameAndBirthday(String name, Long birthday) {
 		String rs = "FROM Patient WHERE 1 = 1 ";
 		if(StringUtils.isNotEmpty(name)){
-			rs += "AND patientName LIKE :patientName ";
+			rs += "AND (patientName LIKE :patientName OR phone LIKE :phone)";
 		}
 		if(birthday != null && birthday > 0){
 			rs += "AND birthday = :birthday ";

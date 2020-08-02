@@ -28,7 +28,7 @@ public class MedicalRequest extends BaseRequest {
 
     protected int doGet() {
         putToView("isMedical", true);
-        putToView("isIndex", true);
+        putToView("isIndexTab", true);
         return 200;
     }
 

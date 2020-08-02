@@ -10,16 +10,19 @@ import java.net.InetSocketAddress;
 import java.util.HashMap;
 import java.util.Map;
 
+import static com.qlbv.common.Constant.*;
+
 public class App
 {
 	static final Logger LOGGER = new Logger();
     public static void main( String[] args ) throws IOException {
-    	LOGGER.info("File Encoding = " + System.getProperty("file.encoding"));
-
+    	LOGGER.info("File Encoding = " + FILE_ENCODING);
+		LOGGER.info("Enviroment = " + ENV);
+		int portServer = 8000;
     	//init rythmengine
 		initRythm();
 
-		HttpServer server = HttpServer.create(new InetSocketAddress(8000), 0);
+		HttpServer server = HttpServer.create(new InetSocketAddress(portServer), 0);
 		HttpContext context = server.createContext("/", new BaseHandler());
 		server.createContext("/resources", new StaticHandler(true, false));
 		server.createContext("/login", new LoginHandler());
@@ -27,13 +30,13 @@ public class App
 		server.createContext("/common", new CommonHandler());
 		server.setExecutor(null); // creates a default executor
 		server.start();
-		LOGGER.info("start server success");
+		LOGGER.info("start server success on port " + portServer);
 
     }
 
     private static void initRythm(){
     	LOGGER.info(System.getProperty("user.dir"));
-		String root = System.getProperty("user.dir") + "\\resources\\rythm";
+		String root = System.getProperty("user.dir") + "/resources/rythm";
 		LOGGER.info("Home template rythm: " + root);
 		// use Map to store the configuration
 		Map<String, Object> map = new HashMap<String, Object>();

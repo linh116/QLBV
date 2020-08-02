@@ -12,6 +12,8 @@ public class WelcomeRequest extends BaseRequest {
     }
 
     protected int doGet() {
+
+        putToView("isIndex", true);
         return 200;
     }
 

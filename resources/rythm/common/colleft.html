@@ -1,34 +1,38 @@
+@import com.qlbv.model.User;
+
 @args() {
+  Boolean isIndex = false,
   Boolean isMedical = false,
+  User user = null,
 }
 
 <div class="profile-sidebar">
   <!-- SIDEBAR USERPIC -->
   <div class="profile-userpic">
-    <img src="https://vignette.wikia.nocookie.net/warlordssieres/images/2/21/Dsad.PNG/revision/latest?cb=20150629092339" class="img-responsive" alt="">
+    <img src="@user.getAvatar()" class="img-responsive" alt="">
   </div>
   <!-- END SIDEBAR USERPIC -->
   <!-- SIDEBAR USER TITLE -->
   <div class="profile-usertitle">
     <div class="profile-usertitle-name">
-      Marcus Doe
+      @user.getDisplayName()
     </div>
     <div class="profile-usertitle-job">
-      Developer
+      Bác sĩ
     </div>
   </div>
   <!-- END SIDEBAR USER TITLE -->
   <!-- SIDEBAR BUTTONS -->
   <div class="profile-userbuttons">
-    <button type="button" class="btn btn-success btn-sm">Follow</button>
-    <button type="button" class="btn btn-danger btn-sm">Message</button>
+    <!--<button type="button" class="btn btn-success btn-sm">Chỉnh sửa hồ sơ</button>-->
+    <!--<button type="button" class="btn btn-danger btn-sm">Message</button>-->
   </div>
   <!-- END SIDEBAR BUTTONS -->
   <!-- SIDEBAR MENU -->
   <div class="profile-usermenu">
     <ul class="nav">
-      <li >
-        <a href="#">
+      <li @if(isIndex) {class="active"}>
+        <a href="/login/welcome">
           <i class="glyphicon glyphicon-home"></i>
           Tổng quan </a>
       </li>
@@ -42,11 +46,11 @@
           <!--<i class="glyphicon glyphicon-leaf"></i>-->
           <!--Quản lý thuốc </a>-->
       <!--</li>-->
-      <li>
-        <a href="#">
-          <i class="glyphicon glyphicon-info-sign"></i>
-          About </a>
-      </li>
+      <!--<li>-->
+        <!--<a href="#">-->
+          <!--<i class="glyphicon glyphicon-info-sign"></i>-->
+          <!--About </a>-->
+      <!--</li>-->
     </ul>
   </div>
   <!-- END MENU -->

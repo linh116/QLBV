@@ -42,6 +42,8 @@ function resetForm() {
     $('#address-patient').val('');
     $('#phone-patient').val('');
     $('#bd-patient').val(new Date().customFormat('#DD#/#MM#/#YYYY#'));
+    $('#job-patient').val('');
+    $('#nation-patient').val('');
 }
 
 
@@ -113,6 +115,8 @@ $('#btn-get-old-patient').on('click', function () {
         $('#address-patient').val(patient.address);
         $('#phone-patient').val(patient.phone);
         $('#bd-patient').val(new Date(patient.birthday).customFormat('#DD#/#MM#/#YYYY#'));
+        $('#job-patient').val(patient.job);
+        $('#nation-patient').val(patient.nation);
     };
     showModalSearchPatient(funcCallback);
 });

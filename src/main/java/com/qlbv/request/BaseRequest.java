@@ -88,6 +88,7 @@ public abstract class BaseRequest implements HttpHandler {
                         SessionManager.setAttribute("user", user);
                     } else {
                         user = (User) SessionManager.getAttribute("user");
+                        putToView("user", user);
                     }
                     return true;
                 }
