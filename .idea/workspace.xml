@@ -7,28 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="610e4897-735b-409f-b934-00a07142aec4" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/qlbv/framework/hibernate/CustomConnectionProvider.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/properties/database_dev.properties" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/properties/database_prod.properties" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/resources/js/Medical/regist.js" afterPath="$PROJECT_DIR$/resources/js/Medical/regist.js" />
-      <change beforePath="$PROJECT_DIR$/resources/rythm/common/colleft.html" afterPath="$PROJECT_DIR$/resources/rythm/common/colleft.html" />
-      <change beforePath="$PROJECT_DIR$/resources/rythm/dashboard.html" afterPath="$PROJECT_DIR$/resources/rythm/dashboard.html" />
-      <change beforePath="$PROJECT_DIR$/resources/rythm/medical/navitabMedical.html" afterPath="$PROJECT_DIR$/resources/rythm/medical/navitabMedical.html" />
-      <change beforePath="$PROJECT_DIR$/resources/rythm/modalcommon/modalFindPatient.html" afterPath="$PROJECT_DIR$/resources/rythm/modalcommon/modalFindPatient.html" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qlbv/common/App.java" afterPath="$PROJECT_DIR$/src/main/java/com/qlbv/common/App.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qlbv/common/Constant.java" afterPath="$PROJECT_DIR$/src/main/java/com/qlbv/common/Constant.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qlbv/dao/PatientDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/qlbv/dao/PatientDao.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qlbv/model/User.java" afterPath="$PROJECT_DIR$/src/main/java/com/qlbv/model/User.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qlbv/request/BaseRequest.java" afterPath="$PROJECT_DIR$/src/main/java/com/qlbv/request/BaseRequest.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qlbv/request/login/WelcomeRequest.java" afterPath="$PROJECT_DIR$/src/main/java/com/qlbv/request/login/WelcomeRequest.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qlbv/request/medical/MedicalRequest.java" afterPath="$PROJECT_DIR$/src/main/java/com/qlbv/request/medical/MedicalRequest.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate/User.hbm.xml" afterPath="$PROJECT_DIR$/src/main/resources/hibernate/User.hbm.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/properties/database.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/spring/database/DataSource.xml" afterPath="$PROJECT_DIR$/src/main/resources/spring/database/DataSource.xml" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hibernate/User.hbm.xml" afterPath="$PROJECT_DIR$/target/classes/hibernate/User.hbm.xml" />
-      <change beforePath="$PROJECT_DIR$/target/classes/properties/database.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/spring/database/DataSource.xml" afterPath="$PROJECT_DIR$/target/classes/spring/database/DataSource.xml" />
+      <change beforePath="$PROJECT_DIR$/resources/css/my-style.css" afterPath="$PROJECT_DIR$/resources/css/my-style.css" />
+      <change beforePath="$PROJECT_DIR$/resources/rythm/medical/index.html" afterPath="$PROJECT_DIR$/resources/rythm/medical/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -62,41 +43,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="database_prod.properties" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/properties/database_prod.properties">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/rythm/medical/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+            <state relative-caret-position="423">
+              <caret line="101" column="37" lean-forward="true" selection-start-line="101" selection-start-column="37" selection-end-line="101" selection-end-column="37" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="regist.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/rythm/medical/regist.html">
+      <file leaf-file-name="modalViewHistoryPatient.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/rythm/modalcommon/modalViewHistoryPatient.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="51" column="74" lean-forward="false" selection-start-line="51" selection-start-column="68" selection-end-line="51" selection-end-column="74" />
+            <state relative-caret-position="171">
+              <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="regist.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/js/Medical/regist.js">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/js/Medical/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="45" column="30" lean-forward="false" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="30" />
+            <state relative-caret-position="421">
+              <caret line="91" column="0" lean-forward="true" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RegistPatientRequest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/qlbv/request/medical/RegistPatientRequest.java">
+      <file leaf-file-name="my-style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/css/my-style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="21" column="47" lean-forward="false" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
+            <state relative-caret-position="186">
+              <caret line="204" column="38" lean-forward="true" selection-start-line="204" selection-start-column="38" selection-end-line="204" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -106,7 +87,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/qlbv/request/common/FindPatientRequest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="336">
-              <caret line="31" column="63" lean-forward="true" selection-start-line="31" selection-start-column="63" selection-end-line="31" selection-end-column="63" />
+              <caret line="31" column="63" lean-forward="false" selection-start-line="31" selection-start-column="63" selection-end-line="31" selection-end-column="63" />
               <folding />
             </state>
           </provider>
@@ -115,7 +96,7 @@
       <file leaf-file-name="PatientBo.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/qlbv/bo/PatientBo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
+            <state relative-caret-position="357">
               <caret line="31" column="36" lean-forward="false" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
               <folding>
                 <element signature="e#632#633#0" expanded="true" />
@@ -128,8 +109,8 @@
       <file leaf-file-name="PatientDao.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/qlbv/dao/PatientDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="40" column="53" lean-forward="true" selection-start-line="40" selection-start-column="53" selection-end-line="40" selection-end-column="53" />
+            <state relative-caret-position="567">
+              <caret line="40" column="53" lean-forward="false" selection-start-line="40" selection-start-column="53" selection-end-line="40" selection-end-column="53" />
               <folding />
             </state>
           </provider>
@@ -138,8 +119,8 @@
       <file leaf-file-name="modalFindPatient.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/rythm/modalcommon/modalFindPatient.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="20" column="36" lean-forward="true" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+            <state relative-caret-position="420">
+              <caret line="20" column="36" lean-forward="false" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -149,7 +130,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/resources/spring/database/DataSource.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="126">
-              <caret line="6" column="34" lean-forward="true" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+              <caret line="6" column="34" lean-forward="false" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -178,7 +159,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>requestRequest</find>
       <find>P</find>
       <find>/code.jquery.com/jquery-1.11.1.min.js</find>
       <find>listPatient</find>
@@ -208,6 +188,7 @@
       <find>resources/rythm</find>
       <find>isIndex</find>
       <find>job-patient</find>
+      <find>table</find>
     </findStrings>
     <replaceStrings>
       <replace>user</replace>
@@ -282,7 +263,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/resources/rythm/medical/regist.html" />
         <option value="$PROJECT_DIR$/src/main/resources/spring/beans/MedicalRecord.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/hibernate/MedicalRecord.hbm.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/qlbv/model/MedicalRecord.java" />
@@ -302,13 +282,11 @@
         <option value="$PROJECT_DIR$/src/main/java/com/qlbv/request/medical/RegistPatientRequest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/spring/database/Hibernate.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/rythm/common/colleft.html" />
-        <option value="$PROJECT_DIR$/resources/css/my-style.css" />
         <option value="$PROJECT_DIR$/src/main/resources/rythm/common/main.html" />
         <option value="$PROJECT_DIR$/resources/js/common.js" />
         <option value="$PROJECT_DIR$/src/main/resources/rythm/medical/index.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/qlbv/bo/MedicalRecordBo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qlbv/dao/MedicalRecordDao.java" />
-        <option value="$PROJECT_DIR$/resources/js/Medical/index.js" />
         <option value="$PROJECT_DIR$/springexample.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/rythm/login.html" />
         <option value="$PROJECT_DIR$/pom.xml" />
@@ -333,6 +311,9 @@
         <option value="$PROJECT_DIR$/resources/rythm/modalcommon/modalFindPatient.html" />
         <option value="$PROJECT_DIR$/resources/js/Medical/regist.js" />
         <option value="$PROJECT_DIR$/src/main/resources/properties/database_prod.properties" />
+        <option value="$PROJECT_DIR$/resources/css/my-style.css" />
+        <option value="$PROJECT_DIR$/resources/js/Medical/index.js" />
+        <option value="$PROJECT_DIR$/resources/rythm/medical/index.html" />
       </list>
     </option>
   </component>
@@ -397,6 +378,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -409,6 +393,12 @@
               <item name="SpringExample" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringExample" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringExample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringExample" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpringExample" type="b2602c69:ProjectViewProjectNode" />
@@ -687,9 +677,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -936,7 +923,8 @@
       <workItem from="1595162941144" duration="4754000" />
       <workItem from="1595341765829" duration="2713000" />
       <workItem from="1595429170192" duration="501000" />
-      <workItem from="1596333104372" duration="6899000" />
+      <workItem from="1596333104372" duration="7494000" />
+      <workItem from="1596462190189" duration="3242000" />
     </task>
     <servers />
   </component>
@@ -946,7 +934,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="173020000" />
+    <option name="totallyTimeSpent" value="176857000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -960,7 +948,7 @@
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.62734866" sideWeight="0.49361023" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12447917" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.378579" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -974,7 +962,7 @@
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25976768" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2719547" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18489583" sideWeight="0.3949447" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15729167" sideWeight="0.6050553" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16145833" sideWeight="0.6050553" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1094,28 +1082,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="86" column="21" lean-forward="false" selection-start-line="86" selection-start-column="21" selection-end-line="86" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.project">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="21" lean-forward="false" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="31" lean-forward="false" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/qlbv/handler/LoginHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
@@ -1212,7 +1178,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="601" column="17" lean-forward="false" selection-start-line="601" selection-start-column="17" selection-end-line="601" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1269,7 +1234,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-653">
           <caret line="22" column="17" lean-forward="false" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1277,7 +1241,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
           <caret line="16" column="62" lean-forward="false" selection-start-line="16" selection-start-column="62" selection-end-line="16" selection-end-column="62" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1320,10 +1283,10 @@
         <state relative-caret-position="-378">
           <caret line="6" column="30" lean-forward="false" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="30" />
           <folding>
-            <element signature="e#522#523#0" expanded="true" />
-            <element signature="e#551#552#0" expanded="true" />
-            <element signature="e#595#596#0" expanded="true" />
-            <element signature="e#631#632#0" expanded="true" />
+            <element signature="e#522#523#0" expanded="false" />
+            <element signature="e#551#552#0" expanded="false" />
+            <element signature="e#595#596#0" expanded="false" />
+            <element signature="e#631#632#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1340,15 +1303,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-189">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/rythm/medical/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-63">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1356,7 +1310,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="5" column="54" lean-forward="false" selection-start-line="5" selection-start-column="54" selection-end-line="5" selection-end-column="54" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1364,9 +1317,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="26" column="27" lean-forward="false" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1383,8 +1333,8 @@
         <state relative-caret-position="179">
           <caret line="203" column="19" lean-forward="false" selection-start-line="203" selection-start-column="19" selection-end-line="203" selection-end-column="19" />
           <folding>
-            <element signature="e#6826#6827#0" expanded="true" />
-            <element signature="e#6865#6866#0" expanded="true" />
+            <element signature="e#6826#6827#0" expanded="false" />
+            <element signature="e#6865#6866#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1401,7 +1351,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
           <caret line="33" column="21" lean-forward="false" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1409,7 +1358,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1417,6 +1365,29 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-84">
           <caret line="30" column="29" lean-forward="false" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/properties/database_prod.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="14" lean-forward="false" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/rythm/medical/regist.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1071">
+          <caret line="51" column="74" lean-forward="false" selection-start-line="51" selection-start-column="68" selection-end-line="51" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/js/Medical/regist.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="45" column="30" lean-forward="false" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="30" />
           <folding />
         </state>
       </provider>
@@ -1432,19 +1403,43 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/qlbv/request/common/FindPatientRequest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
-          <caret line="31" column="63" lean-forward="true" selection-start-line="31" selection-start-column="63" selection-end-line="31" selection-end-column="63" />
+          <caret line="31" column="63" lean-forward="false" selection-start-line="31" selection-start-column="63" selection-end-line="31" selection-end-column="63" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/qlbv/bo/PatientBo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
+        <state relative-caret-position="357">
           <caret line="31" column="36" lean-forward="false" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
           <folding>
             <element signature="e#632#633#0" expanded="true" />
             <element signature="e#686#687#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qlbv/dao/PatientDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="40" column="53" lean-forward="false" selection-start-line="40" selection-start-column="53" selection-end-line="40" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/rythm/modalcommon/modalFindPatient.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="20" column="36" lean-forward="false" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/database/DataSource.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="34" lean-forward="false" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1456,50 +1451,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qlbv/dao/PatientDao.java">
+    <entry file="file://$PROJECT_DIR$/resources/rythm/modalcommon/modalViewHistoryPatient.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="40" column="53" lean-forward="true" selection-start-line="40" selection-start-column="53" selection-end-line="40" selection-end-column="53" />
+        <state relative-caret-position="171">
+          <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/rythm/modalcommon/modalFindPatient.html">
+    <entry file="file://$PROJECT_DIR$/resources/css/my-style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="20" column="36" lean-forward="true" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+        <state relative-caret-position="186">
+          <caret line="204" column="38" lean-forward="true" selection-start-line="204" selection-start-column="38" selection-end-line="204" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/rythm/medical/regist.html">
+    <entry file="file://$PROJECT_DIR$/resources/js/Medical/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="51" column="74" lean-forward="false" selection-start-line="51" selection-start-column="68" selection-end-line="51" selection-end-column="74" />
+        <state relative-caret-position="421">
+          <caret line="91" column="0" lean-forward="true" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/js/Medical/regist.js">
+    <entry file="file://$PROJECT_DIR$/resources/rythm/medical/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="45" column="30" lean-forward="false" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/database/DataSource.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="34" lean-forward="true" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/properties/database_prod.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+        <state relative-caret-position="423">
+          <caret line="101" column="37" lean-forward="true" selection-start-line="101" selection-start-column="37" selection-end-line="101" selection-end-column="37" />
           <folding />
         </state>
       </provider>

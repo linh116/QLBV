@@ -214,6 +214,11 @@ body {
     padding-right: 50px;
 }
 
+table {
+    table-layout: fixed;
+    word-wrap: break-word !important;
+}
+
 
 /*Common*/
 .text-right{

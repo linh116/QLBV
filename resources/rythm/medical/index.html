@@ -18,36 +18,36 @@
             <tbody>
             <input type="hidden" id="id-request" value="">
             <tr>
-              <td class="text-right"><span class="label label-info">Mã BN</span></td>
-              <td><span id="id-patient"></span> </td>
+              <td class="col-xs-4 text-right"><span class="label label-info">Mã BN</span></td>
+              <td class="col-xs-8"><span id="id-patient"></span></td>
             </tr>
             <tr>
-              <td class="text-right"><span class="label label-info">Tên BN</span></td>
-              <td><span class=" patient-name" id="name-patient"></span></td>
+              <td class="col-xs-4 text-right"><span class="label label-info">Tên BN</span></td>
+              <td class="col-xs-8"><span class=" patient-name" id="name-patient"></span></td>
             </tr>
             <tr>
-              <td class="text-right"><span class="label label-info">Giới tính</span></td>
-              <td><span id="patient-gender"></span></td>
+              <td class="col-xs-4 text-right"><span class="label label-info">Giới tính</span></td>
+              <td class="col-xs-8"><span id="patient-gender"></span></td>
             </tr>
             <tr>
-              <td class="text-right"><span class="label label-info">Địa chỉ</span></td>
-              <td><span id="address-patient"></span></td>
+              <td class="col-xs-4 text-right"><span class="label label-info">Địa chỉ</span></td>
+              <td class="col-xs-8"><span id="address-patient"></span></td>
             </tr>
             <tr>
-              <td class="text-right"><span class="label label-info">SĐT</span></td>
-              <td><span id="phone-patient"></span></td>
+              <td class="col-xs-4 text-right"><span class="label label-info">SĐT</span></td>
+              <td class="col-xs-8"><span id="phone-patient"></span></td>
             </tr>
             <tr>
-              <td class="text-right"><span class="label label-info">Ngày sinh</span></td>
-              <td><span id="bd-patient"></span></td>
+              <td class="col-xs-4 text-right"><span class="label label-info">Ngày sinh</span></td>
+              <td class="col-xs-8"><span id="bd-patient"></span></td>
             </tr>
             <tr>
-              <td class="text-right"><span class="label label-info">Nghề nghiệp</span></td>
-              <td><span id="job-patient"></span></td>
+              <td class="col-xs-4 text-right"><span class="label label-info">Nghề nghiệp</span></td>
+              <td class="col-xs-8"><span id="job-patient"></span></td>
             </tr>
             <tr>
-              <td class="text-right"><span class="label label-info">Dân tộc</span></td>
-              <td><span id="nation-patient"></span></td>
+              <td class="col-xs-4 text-right"><span class="label label-info">Dân tộc</span></td>
+              <td class="col-xs-8"><span id="nation-patient"></span></td>
             </tr>
             </tbody>
           </table>
@@ -78,25 +78,40 @@
           <table class="table table-info-patient">
             <tbody>
             <tr>
-              <td class="text-right"><span class="label label-info">Lý do khám:</span></td>
-              <td><input type="text" id="reason-sick"></td>
+              <td class="col-xs-2 text-right"><span class="label label-info">Lý do khám:</span></td>
+              <td class="col-xs-10"><textarea cols="80" rows="2" type="text" id="reason-sick"></textarea></td>
             </tr>
             <tr>
-              <td class="text-right"><span class="label label-info">Triệu chứng</span></td>
-              <td><input type="text" id="symptom-sick"></td>
+              <td class="col-xs-2 text-right"><span class="label label-info">Triệu chứng</span></td>
+              <td class="col-xs-10"><textarea cols="80" rows="2" type="text" id="symptom-sick"></textarea></td>
             </tr>
             <tr>
-              <td class="text-right"><span class="label label-info">Chẩn đoán</span></td>
-              <td><input type="text" id="guess-sick"></td>
+              <td class="col-xs-2 text-right"><span class="label label-info">Chẩn đoán</span></td>
+              <td class="col-xs-10"><textarea cols="80" rows="3" type="text" id="guess-sick"></textarea></td>
             </tr>
             <tr>
-              <td class="text-right"><span class="label label-info">Ghi chú</span></td>
-              <td><input type="text" id="note-sick"></td>
+              <td class="col-xs-2 text-right"><span class="label label-info">Ghi chú</span></td>
+              <td class="col-xs-10"><textarea cols="80" rows="3" type="text" id="note-sick"></textarea></td>
+            </tr>
+            <tr>
+              <td class="col-xs-2 text-right"><span class="label label-info">Công khám</span></td>
+              <td class="col-xs-10">
+                <input type="number" list="fee" name="fee" id="fee-doctor">
+                <datalist id="fee">
+                  <option value="0">
+                  <option value="20">
+                  <option value="50">
+                  <option value="100">
+                  <option value="200">
+                </datalist> (nghìn đồng)
+              </td>
             </tr>
             </tbody>
           </table>
           <div class="content-center">
-            <button disabled="disabled" type="button" id="btn-save-diagnose" class="btn btn-success btn-sm">Lưu bệnh án</button>
+            <button disabled="disabled" type="button" id="btn-save-diagnose" class="btn btn-success btn-sm">Lưu bệnh
+              án
+            </button>
           </div>
         </div>
       </div>
