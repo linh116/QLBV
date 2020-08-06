@@ -40,7 +40,6 @@ public class RegistPatientRequest extends BaseRequest {
         Boolean patientGender = Helper.getBoolean(params, "patientGender");
         String patientJob = Helper.getString(params, "patientJob");
         String patientNation = Helper.getString(params, "patientNation");
-
         long birthdayLong = 0;
         try {
             Date birthDay = sdf.parse(patientBD);

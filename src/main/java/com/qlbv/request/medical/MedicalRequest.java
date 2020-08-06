@@ -42,6 +42,8 @@ public class MedicalRequest extends BaseRequest {
             Long patientId = Helper.getLong(params, "patientId");
             String reason = Helper.getString(params, "reason");
             String symptom = Helper.getString(params, "symptom");
+            int fee = Helper.getInt(params, "fee");
+            String prescription = Helper.getString(params, "prescription");
 
             MedicalRecord medicalRecord = new MedicalRecord();
             medicalRecord.setCreatedDtm(System.currentTimeMillis());
@@ -51,7 +53,8 @@ public class MedicalRequest extends BaseRequest {
             medicalRecord.setReason(reason);
             medicalRecord.setSymptom(symptom);
             medicalRecord.setDoctorId(user.getUserId());
-
+            medicalRecord.setFee(fee);
+            medicalRecord.setPresciptionCode(prescription);
             // save data benh nhan
             medicalRecordBo.save(medicalRecord);
 

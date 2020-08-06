@@ -29,5 +29,11 @@
         <property name="createdDtm" type="java.lang.Long">
             <column name="CREATED_DTM" not-null="false" unique="false" />
         </property>
+        <property name="fee" type="java.lang.Integer">
+            <column name="FEE" not-null="false" unique="false" />
+        </property>
+        <property name="presciptionCode" type="text">
+            <column name="PRESCRIPTION_CODE" not-null="false" unique="false" />
+        </property>
     </class>
 </hibernate-mapping>

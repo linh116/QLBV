@@ -224,6 +224,10 @@ table {
 .text-right{
     text-align: right;
 }
+
+.text-left{
+    text-align: left;
+}
 .patient-name{
     font-weight: bold;
 }
@@ -240,4 +244,8 @@ table {
 }
 .content-center{
     text-align: center;
+}
+
+.table>thead>tr>th, .table>tbody>tr>th, .table>tfoot>tr>th, .table>thead>tr>td, .table>tbody>tr>td, .table>tfoot>tr>td {
+    vertical-align: middle !important;
 }

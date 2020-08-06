@@ -1,5 +1,5 @@
 $('#btn-regist').on('click', function () {
-    if ($('#name-patient').val() == ''){
+    if ($('#name-patient').val() == '') {
         alert('Tên bệnh nhân không được bỏ trống.');
         return;
     }
@@ -44,21 +44,24 @@ function resetForm() {
     $('#bd-patient').val(new Date().customFormat('#DD#/#MM#/#YYYY#'));
     $('#job-patient').val('');
     $('#nation-patient').val('');
+    $('#fee-doctor').val('');
+    $('#prescription-code').val('');
 }
 
 
 function renderBNChoKham(listView) {
     function renderRow(view) {
-        return '<a href="javascript:void(0)" class="list-group-item list-group-item-action">'+view.patientName+'</a>';
+        return '<a href="javascript:void(0)" class="list-group-item list-group-item-action">' + view.patientName + '</a>';
     }
 
     $('#list-patient-container').html('');
     var newHtml = '';
-    for(var i = 0; i< listView.length; i++){
+    for (var i = 0; i < listView.length; i++) {
         newHtml += renderRow(listView[i]);
     }
     $('#list-patient-container').html(newHtml);
 }
+
 /*function showInfo(patientId) {
     //find info inlist
     for(var i = 0; i< _listBN.length; i++){
@@ -74,11 +77,9 @@ function renderBNChoKham(listView) {
 }*/
 
 
-
-
-
 var _listBN;
-function initTablePatientWaiting(){
+
+function initTablePatientWaiting() {
     $.ajax(
         {
             method: "post",
@@ -88,8 +89,8 @@ function initTablePatientWaiting(){
             },
             success: function (result) {
                 data = JSON.parse(result);
-                if (data.data.listRequest == undefined){
-                }else{
+                if (data.data.listRequest == undefined) {
+                } else {
                     var listView = JSON.parse(data.data.listRequest);
                     _listBN = listView;
                     renderBNChoKham(listView);
@@ -109,7 +110,7 @@ $('#btn-get-old-patient').on('click', function () {
         $('#name-patient').val(patient.patientName);
         if (patient.gender == true) {
             $('input[name="sex-patient"]')[0].checked = true;
-        }else{
+        } else {
             $('input[name="sex-patient"]')[1].checked = true;
         }
         $('#address-patient').val(patient.address);
@@ -122,14 +123,14 @@ $('#btn-get-old-patient').on('click', function () {
 });
 
 
-
-$( document ).ready(function() {
+$(document).ready(function () {
     initTablePatientWaiting();
 });
 
 // find patient at modal common
 //setup before find patient
 var _tableSearchPatient;
+
 function showModalSearchPatient(callbackFunc) {
     getAndShowPatientAtModal(callbackFunc);
     $('#modal-find-patient').modal('show');
@@ -150,7 +151,7 @@ function showModalSearchPatient(callbackFunc) {
     });
 
     //user is "finished typing," do something
-    function doneTyping () {
+    function doneTyping() {
         getAndShowPatientAtModal(callbackFunc);
     }
 
@@ -161,20 +162,21 @@ function showModalSearchPatient(callbackFunc) {
     function renderPatient(listView) {
         $('#table-find-patient-body').html('');
         let newHtml = '';
-        for (let i = 0; i< listView.length; i++){
+        for (let i = 0; i < listView.length; i++) {
             let view = listView[i];
-            newHtml += '<tr id="patient-row-'+i+'">\n' +
-                '<td>'+view.patientId+'</td>\n' +
-                '<td>'+view.patientName+'</td>\n' +
-                '<td>'+view.address+'</td>\n' +
-                '<td>'+view.phone+'</td>\n' +
-                '<td>'+new Date(view.birthday).customFormat('#DD#/#MM#/#YYYY#')+'</td>\n' +
+            newHtml += '<tr id="patient-row-' + i + '">\n' +
+                '<td>' + view.patientId + '</td>\n' +
+                '<td>' + view.patientName + '</td>\n' +
+                '<td>' + view.address + '</td>\n' +
+                '<td>' + view.phone + '</td>\n' +
+                '<td>' + new Date(view.birthday).customFormat('#DD#/#MM#/#YYYY#') + '</td>\n' +
                 '</tr>';
         }
         $('#table-find-patient-body').html(newHtml);
 
     }
-    function getAndShowPatientAtModal(callbackFunc){
+
+    function getAndShowPatientAtModal(callbackFunc) {
         let patientName = $('#searchName').val();
         let birthday = convertFromDateStrToLong($('#searchNgaySinh').val());
 
@@ -187,25 +189,25 @@ function showModalSearchPatient(callbackFunc) {
                     birthday: birthday
                 },
                 success: function (result) {
-                    if (_tableSearchPatient != undefined){
+                    if (_tableSearchPatient != undefined) {
                         _tableSearchPatient.dataTable().fnDestroy();
                     }
                     let data = JSON.parse(result);
                     let listView = JSON.parse(data.data.listPatient);
-                    if (listView != undefined && listView != 'null'){
+                    if (listView != undefined && listView != 'null') {
                         renderPatient(listView);
-                        for (let i = 0; i < listView.length; i++){
-                            $('#patient-row-'+i).on('click', function () {
+                        for (let i = 0; i < listView.length; i++) {
+                            $('#patient-row-' + i).on('click', function () {
                                 callbackFunc(listView[i]);
                                 $('#modal-find-patient').modal('hide');
                             });
                         }
-                    }else{
+                    } else {
                         $('#table-find-patient-body').html('');
                     }
                     _tableSearchPatient = $('#table-find-patient').dataTable({
                         "searching": false,
-                        "bInfo" : false,
+                        "bInfo": false,
                         "language": {
                             "lengthMenu": 'Hiển thị _MENU_ dòng mỗi trang',
                         }

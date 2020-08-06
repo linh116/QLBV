@@ -4,91 +4,113 @@ import java.io.Serializable;
 
 public class MedicalRecord implements Serializable {
 
-	private static final long serialVersionUID = 1L;
+    private static final long serialVersionUID = 1L;
 
-	private Long recordId;
-	private Long patientId;
-	private Long doctorId;
-	private String reason;
-	private String symptom;
-	private String guess;
-	private String note;
-	private Long createdDtm;
-	public MedicalRecord() {
-	}
+    private Long recordId;
+    private Long patientId;
+    private Long doctorId;
+    private String reason;
+    private String symptom;
+    private String guess;
+    private String note;
+    private Long createdDtm;
+    private int fee;
+    private String presciptionCode;
 
-	public MedicalRecord(Long recordId, Long patientId, Long doctorId, String reason, String symptom, String guess, String note, Long createdDtm) {
-		this.recordId = recordId;
-		this.patientId = patientId;
-		this.doctorId = doctorId;
-		this.reason = reason;
-		this.symptom = symptom;
-		this.guess = guess;
-		this.note = note;
-		this.createdDtm = createdDtm;
-	}
+    public MedicalRecord() {
+    }
 
-	public Long getDoctorId() {
-		return doctorId;
-	}
 
-	public void setDoctorId(Long doctorId) {
-		this.doctorId = doctorId;
-	}
+    public MedicalRecord(Long recordId, Long patientId, Long doctorId, String reason, String symptom, String guess, String note, Long createdDtm, int fee, String presciptionCode) {
+        this.recordId = recordId;
+        this.patientId = patientId;
+        this.doctorId = doctorId;
+        this.reason = reason;
+        this.symptom = symptom;
+        this.guess = guess;
+        this.note = note;
+        this.createdDtm = createdDtm;
+        this.fee = fee;
+        this.presciptionCode = presciptionCode;
+    }
 
-	public Long getRecordId() {
-		return recordId;
-	}
+    public int getFee() {
+        return fee;
+    }
 
-	public void setRecordId(Long recordId) {
-		this.recordId = recordId;
-	}
+    public void setFee(int fee) {
+        this.fee = fee;
+    }
 
-	public Long getPatientId() {
-		return patientId;
-	}
+    public String getPresciptionCode() {
+        return presciptionCode;
+    }
 
-	public void setPatientId(Long patientId) {
-		this.patientId = patientId;
-	}
+    public void setPresciptionCode(String presciptionCode) {
+        this.presciptionCode = presciptionCode;
+    }
 
-	public String getReason() {
-		return reason;
-	}
+    public Long getDoctorId() {
+        return doctorId;
+    }
 
-	public void setReason(String reason) {
-		this.reason = reason;
-	}
+    public void setDoctorId(Long doctorId) {
+        this.doctorId = doctorId;
+    }
 
-	public String getSymptom() {
-		return symptom;
-	}
+    public Long getRecordId() {
+        return recordId;
+    }
 
-	public void setSymptom(String symptom) {
-		this.symptom = symptom;
-	}
+    public void setRecordId(Long recordId) {
+        this.recordId = recordId;
+    }
 
-	public String getGuess() {
-		return guess;
-	}
+    public Long getPatientId() {
+        return patientId;
+    }
 
-	public void setGuess(String guess) {
-		this.guess = guess;
-	}
+    public void setPatientId(Long patientId) {
+        this.patientId = patientId;
+    }
 
-	public String getNote() {
-		return note;
-	}
+    public String getReason() {
+        return reason;
+    }
 
-	public void setNote(String note) {
-		this.note = note;
-	}
+    public void setReason(String reason) {
+        this.reason = reason;
+    }
 
-	public Long getCreatedDtm() {
-		return createdDtm;
-	}
+    public String getSymptom() {
+        return symptom;
+    }
 
-	public void setCreatedDtm(Long createdDtm) {
-		this.createdDtm = createdDtm;
-	}
+    public void setSymptom(String symptom) {
+        this.symptom = symptom;
+    }
+
+    public String getGuess() {
+        return guess;
+    }
+
+    public void setGuess(String guess) {
+        this.guess = guess;
+    }
+
+    public String getNote() {
+        return note;
+    }
+
+    public void setNote(String note) {
+        this.note = note;
+    }
+
+    public Long getCreatedDtm() {
+        return createdDtm;
+    }
+
+    public void setCreatedDtm(Long createdDtm) {
+        this.createdDtm = createdDtm;
+    }
 }

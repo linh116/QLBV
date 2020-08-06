@@ -108,6 +108,8 @@ $('#btn-save-diagnose').on('click', function () {
                 reason: $('#reason-sick').val(),
                 symptom: $('#symptom-sick').val(),
                 note: $('#note-sick').val(),
+                fee: $('#fee-doctor').val(),
+                prescription: $('#prescription-code').val(),
             },
             success: function (result) {
                 location.reload();
